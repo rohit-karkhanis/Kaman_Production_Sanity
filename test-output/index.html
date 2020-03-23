@@ -1,0 +1,1838 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\ROhit\Rohit\Automation\Demo\KamanProd\TestRun.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 8 failed,  20 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC30_Search_Typeahead, Type ahead must be displayed, Yes, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC30_Search_Typeahead, Type ahead must be displayed, Yes, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC27_Verify_Store_room, Products must be added to store room successfully, Ye...)">ExecuteTest(ALL_PAGES, END_TO_END, TC27_Verify_Store_room, Products must be added to store room successfully, Ye...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC32_Verify_store_location, 1. Go to site and then go to store location page
+...)">ExecuteTest(ALL_PAGES, END_TO_END, TC32_Verify_store_location, 1. Go to site and then go to store location page
+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC02_Login_RegisteredUser, Verify Login for Registered User, Yes, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC02_Login_RegisteredUser, Verify Login for Registered User, Yes, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_MYACC_RegisteredUser, Verify Myaccounts Section for Registered Us...)">ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_MYACC_RegisteredUser, Verify Myaccounts Section for Registered Us...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC29_VerifyALL_Links_Myaccount, All the pages must be displayed, Yes, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC29_VerifyALL_Links_Myaccount, All the pages must be displayed, Yes, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC23_Verify_UserRegistration, User should be registered and logged in, Yes, H...)">ExecuteTest(ALL_PAGES, END_TO_END, TC23_Verify_UserRegistration, User should be registered and logged in, Yes, H...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC31_Verify_login, User should be able to login successfully, Yes, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC31_Verify_login, User should be able to login successfully, Yes, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC09_Verify_Documented_Savings, Article should display, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC09_Verify_Documented_Savings, Article should display, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC18_Verify_ShippingPage, Shipping page must appear, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC18_Verify_ShippingPage, Shipping page must appear, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC12_Verify_AddToCart_from_PDP, 1. Item should be added to cart
+2. Appropriat...)">ExecuteTest(ALL_PAGES, END_TO_END, TC12_Verify_AddToCart_from_PDP, 1. Item should be added to cart
+2. Appropriat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC05_Search_product_in_Catalog, Search product in Catalog , NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC05_Search_product_in_Catalog, Search product in Catalog , NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC17_Verify_CheckoutButton, Items  and price must update, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC17_Verify_CheckoutButton, Items  and price must update, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC08_VerifyProductListPLP, Should display products list, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC08_VerifyProductListPLP, Should display products list, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC04_Search_product_not_in_Catalog, Search product not in Catalog , NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC04_Search_product_not_in_Catalog, Search product not in Catalog , NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC19_Verify_ShippingMethod, Shipping method page should display, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC19_Verify_ShippingMethod, Shipping method page should display, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC10_Verify_Search_results, Search results must display, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC10_Verify_Search_results, Search results must display, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC15_Verify_ViewFullCart, 1. Cart should display
+2. All items in cart must ha...)">ExecuteTest(ALL_PAGES, END_TO_END, TC15_Verify_ViewFullCart, 1. Cart should display
+2. All items in cart must ha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC03_Verify_BLP_Solutions_ContactUS, 1. Go to home page
+2. Verify brands, sol...)">ExecuteTest(ALL_PAGES, END_TO_END, TC03_Verify_BLP_Solutions_ContactUS, 1. Go to home page
+2. Verify brands, sol...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_HOME_PDP_PLP_CATEGORY, Verify home page, PDP, PLP, search results...)">ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_HOME_PDP_PLP_CATEGORY, Verify home page, PDP, PLP, search results...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC07_SearchCategory, User should be directed to category page, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC07_SearchCategory, User should be directed to category page, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC01_Verify_HomePage, View store home, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC01_Verify_HomePage, View store home, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC6_SearchResults_Typeahead, 1. when user typing, type ahead should work
+2. U...)">ExecuteTest(ALL_PAGES, END_TO_END, TC6_SearchResults_Typeahead, 1. when user typing, type ahead should work
+2. U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC14_Verify_AddToCart_from_Search, Item should be added to cart, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC14_Verify_AddToCart_from_Search, Item should be added to cart, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC13_Verify_Search_Dimensions, Search results should appear
+Dimensions appear...)">ExecuteTest(ALL_PAGES, END_TO_END, TC13_Verify_Search_Dimensions, Search results should appear
+Dimensions appear...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC16_Update_Quantity_CartPage, Items  and price must update, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC16_Update_Quantity_CartPage, Items  and price must update, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC26_Verify_Clear_Cart, All the items must be removed from the cart, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC26_Verify_Clear_Cart, All the items must be removed from the cart, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testcases.driverscripts.Execute_MainScript" hash-for-method="ExecuteTest(ALL_PAGES, END_TO_END, TC11_Verify_PDP_From_Search_results, PDP should display, NO, High)">ExecuteTest(ALL_PAGES, END_TO_END, TC11_Verify_PDP_From_Search_results, PDP should display, NO, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcases.driverscripts.Execute_MainScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC30_Search_Typeahead, Type ahead must be displayed, Yes, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC30_Search_Typeahead, Type ahead must be displayed, Yes, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC30_Search_Typeahead, Type ahead must be displayed, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 186 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC27_Verify_Store_room, Products must be added to store room successfully, Ye...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC27_Verify_Store_room, Products must be added to store room successfully, Ye...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC27_Verify_Store_room, Products must be added to store room successfully, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 132 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC32_Verify_store_location, 1. Go to site and then go to store location page
+...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC32_Verify_store_location, 1. Go to site and then go to store location page
+...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC32_Verify_store_location, 1. Go to site and then go to store location page
+2. Search for store
+3. Verify the displayed results, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 240 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC02_Login_RegisteredUser, Verify Login for Registered User, Yes, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC02_Login_RegisteredUser, Verify Login for Registered User, Yes, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC02_Login_RegisteredUser, Verify Login for Registered User, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_MYACC_RegisteredUser, Verify Myaccounts Section for Registered Us...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_MYACC_RegisteredUser, Verify Myaccounts Section for Registered Us...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC02_Verify_MYACC_RegisteredUser, Verify Myaccounts Section for Registered User, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 78 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC29_VerifyALL_Links_Myaccount, All the pages must be displayed, Yes, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC29_VerifyALL_Links_Myaccount, All the pages must be displayed, Yes, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC29_VerifyALL_Links_Myaccount, All the pages must be displayed, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 159 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC23_Verify_UserRegistration, User should be registered and logged in, Yes, H...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC23_Verify_UserRegistration, User should be registered and logged in, Yes, H...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC23_Verify_UserRegistration, User should be registered and logged in, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 105 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC31_Verify_login, User should be able to login successfully, Yes, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC31_Verify_login, User should be able to login successfully, Yes, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC31_Verify_login, User should be able to login successfully, Yes, High)</span>
+                  <div class="stack-trace">java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;LSPL309-PC&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir38848_2058970423}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54817}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: b6155d0672a3d14a8a557cde155553ae
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:89)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:278)
+
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:321)
+... Removed 213 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testcases.driverscripts.Execute_MainScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC09_Verify_Documented_Savings, Article should display, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC09_Verify_Documented_Savings, Article should display, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC09_Verify_Documented_Savings, Article should display, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC09_Verify_Documented_Savings has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC18_Verify_ShippingPage, Shipping page must appear, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC18_Verify_ShippingPage, Shipping page must appear, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC18_Verify_ShippingPage, Shipping page must appear, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC18_Verify_ShippingPage has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC12_Verify_AddToCart_from_PDP, 1. Item should be added to cart
+2. Appropriat...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC12_Verify_AddToCart_from_PDP, 1. Item should be added to cart
+2. Appropriat...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC12_Verify_AddToCart_from_PDP, 1. Item should be added to cart
+2. Appropriate inventory message must be displayed, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC12_Verify_AddToCart_from_PDP has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC05_Search_product_in_Catalog, Search product in Catalog , NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC05_Search_product_in_Catalog, Search product in Catalog , NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC05_Search_product_in_Catalog, Search product in Catalog , NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC05_Search_product_in_Catalog has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC17_Verify_CheckoutButton, Items  and price must update, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC17_Verify_CheckoutButton, Items  and price must update, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC17_Verify_CheckoutButton, Items  and price must update, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC17_Verify_CheckoutButton has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC08_VerifyProductListPLP, Should display products list, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC08_VerifyProductListPLP, Should display products list, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC08_VerifyProductListPLP, Should display products list, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC08_VerifyProductListPLP has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC04_Search_product_not_in_Catalog, Search product not in Catalog , NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC04_Search_product_not_in_Catalog, Search product not in Catalog , NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC04_Search_product_not_in_Catalog, Search product not in Catalog , NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC04_Search_product_not_in_Catalog has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC19_Verify_ShippingMethod, Shipping method page should display, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC19_Verify_ShippingMethod, Shipping method page should display, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC19_Verify_ShippingMethod, Shipping method page should display, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC19_Verify_ShippingMethod has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC10_Verify_Search_results, Search results must display, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC10_Verify_Search_results, Search results must display, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC10_Verify_Search_results, Search results must display, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC10_Verify_Search_results has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC15_Verify_ViewFullCart, 1. Cart should display
+2. All items in cart must ha...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC15_Verify_ViewFullCart, 1. Cart should display
+2. All items in cart must ha...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC15_Verify_ViewFullCart, 1. Cart should display
+2. All items in cart must have pricing, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC15_Verify_ViewFullCart has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC03_Verify_BLP_Solutions_ContactUS, 1. Go to home page
+2. Verify brands, sol...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC03_Verify_BLP_Solutions_ContactUS, 1. Go to home page
+2. Verify brands, sol...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC03_Verify_BLP_Solutions_ContactUS, 1. Go to home page
+2. Verify brands, solutions, resources, contact and about us pages, Search filed and quick order link, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC03_Verify_BLP_Solutions_ContactUS has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_HOME_PDP_PLP_CATEGORY, Verify home page, PDP, PLP, search results...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_HOME_PDP_PLP_CATEGORY, Verify home page, PDP, PLP, search results...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC02_Verify_HOME_PDP_PLP_CATEGORY, Verify home page, PDP, PLP, search results, cart ,Category - Basic checks, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC02_Verify_HOME_PDP_PLP_CATEGORY has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC07_SearchCategory, User should be directed to category page, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC07_SearchCategory, User should be directed to category page, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC07_SearchCategory, User should be directed to category page, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC07_SearchCategory has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC01_Verify_HomePage, View store home, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC01_Verify_HomePage, View store home, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC01_Verify_HomePage, View store home, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC01_Verify_HomePage has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC6_SearchResults_Typeahead, 1. when user typing, type ahead should work
+2. U...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC6_SearchResults_Typeahead, 1. when user typing, type ahead should work
+2. U...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC6_SearchResults_Typeahead, 1. when user typing, type ahead should work
+2. User should be directed to search results list
+3. Dimensions should appear on left, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC6_SearchResults_Typeahead has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC14_Verify_AddToCart_from_Search, Item should be added to cart, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC14_Verify_AddToCart_from_Search, Item should be added to cart, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC14_Verify_AddToCart_from_Search, Item should be added to cart, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC14_Verify_AddToCart_from_Search has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC13_Verify_Search_Dimensions, Search results should appear
+Dimensions appear...)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC13_Verify_Search_Dimensions, Search results should appear
+Dimensions appear...) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC13_Verify_Search_Dimensions, Search results should appear
+Dimensions appear on left, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC13_Verify_Search_Dimensions has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC16_Update_Quantity_CartPage, Items  and price must update, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC16_Update_Quantity_CartPage, Items  and price must update, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC16_Update_Quantity_CartPage, Items  and price must update, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC16_Update_Quantity_CartPage has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC26_Verify_Clear_Cart, All the items must be removed from the cart, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC26_Verify_Clear_Cart, All the items must be removed from the cart, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC26_Verify_Clear_Cart, All the items must be removed from the cart, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC26_Verify_Clear_Cart has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExecuteTest(ALL_PAGES, END_TO_END, TC11_Verify_PDP_From_Search_results, PDP should display, NO, High)">
+                  </a> <!-- ExecuteTest(ALL_PAGES, END_TO_END, TC11_Verify_PDP_From_Search_results, PDP should display, NO, High) -->
+                  <span class="method-name">ExecuteTest</span>
+                  <span class="parameters">(ALL_PAGES, END_TO_END, TC11_Verify_PDP_From_Search_results, PDP should display, NO, High)</span>
+                  <div class="stack-trace">org.testng.SkipException: TC11_Verify_PDP_From_Search_results has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:338)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\ROhit\Rohit\Automation\Demo\KamanProd\TestRun.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Chrome_test&quot;&gt;
+    &lt;parameter name=&quot;DeviceScrWidth&quot; value=&quot;375&quot;/&gt;
+    &lt;parameter name=&quot;Device&quot; value=&quot;iphone X&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;Channel&quot; value=&quot;Desktop&quot;/&gt;
+    &lt;parameter name=&quot;DeviceScrHeight&quot; value=&quot;812&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.driverscripts.Execute_MainScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome_test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome_test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ExecuteTest')
+data.setCell(0, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(0, 3, 245430);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ExecuteTest')
+data.setCell(1, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(1, 3, 159);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ExecuteTest')
+data.setCell(2, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(2, 3, 112);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ExecuteTest')
+data.setCell(3, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(3, 3, 96);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ExecuteTest')
+data.setCell(4, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(4, 3, 76);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ExecuteTest')
+data.setCell(5, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(5, 3, 73);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ExecuteTest')
+data.setCell(6, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(6, 3, 61);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ExecuteTest')
+data.setCell(7, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(7, 3, 48);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ExecuteTest')
+data.setCell(8, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(8, 3, 45);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ExecuteTest')
+data.setCell(9, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(9, 3, 15);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ExecuteTest')
+data.setCell(10, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(10, 3, 15);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ExecuteTest')
+data.setCell(11, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(11, 3, 15);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ExecuteTest')
+data.setCell(12, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(12, 3, 14);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ExecuteTest')
+data.setCell(13, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(13, 3, 14);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ExecuteTest')
+data.setCell(14, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(14, 3, 13);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ExecuteTest')
+data.setCell(15, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(15, 3, 13);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ExecuteTest')
+data.setCell(16, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(16, 3, 13);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ExecuteTest')
+data.setCell(17, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(17, 3, 13);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ExecuteTest')
+data.setCell(18, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(18, 3, 13);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ExecuteTest')
+data.setCell(19, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(19, 3, 12);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ExecuteTest')
+data.setCell(20, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(20, 3, 12);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ExecuteTest')
+data.setCell(21, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(21, 3, 12);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ExecuteTest')
+data.setCell(22, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(22, 3, 12);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ExecuteTest')
+data.setCell(23, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(23, 3, 12);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'ExecuteTest')
+data.setCell(24, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(24, 3, 12);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ExecuteTest')
+data.setCell(25, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(25, 3, 11);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'ExecuteTest')
+data.setCell(26, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(26, 3, 11);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ExecuteTest')
+data.setCell(27, 2, 'com.testcases.driverscripts.Execute_MainScript')
+data.setCell(27, 3, 11);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.driverscripts.Execute_MainScript</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Pre_requisite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">EnvSetup(chrome, Desktop, iphone X, 812, 375)</span>
+                <span class="method-start">142 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC01_Verify_HomePage, View store home, NO, High)</span>
+                <span class="method-start">10345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10458 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_HOME_PDP_PLP_CATEGORY, Verify home page, PDP, PLP, search results...)</span>
+                <span class="method-start">10464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC03_Verify_BLP_Solutions_ContactUS, 1. Go to home page
+2. Verify brands, sol...)</span>
+                <span class="method-start">10477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC04_Search_product_not_in_Catalog, Search product not in Catalog , NO, High)</span>
+                <span class="method-start">10490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC05_Search_product_in_Catalog, Search product in Catalog , NO, High)</span>
+                <span class="method-start">10504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC6_SearchResults_Typeahead, 1. when user typing, type ahead should work
+2. U...)</span>
+                <span class="method-start">10517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC07_SearchCategory, User should be directed to category page, NO, High)</span>
+                <span class="method-start">10531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC08_VerifyProductListPLP, Should display products list, NO, High)</span>
+                <span class="method-start">10545 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10545 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC09_Verify_Documented_Savings, Article should display, NO, High)</span>
+                <span class="method-start">10559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC10_Verify_Search_results, Search results must display, NO, High)</span>
+                <span class="method-start">10573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10573 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC11_Verify_PDP_From_Search_results, PDP should display, NO, High)</span>
+                <span class="method-start">10587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10587 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC12_Verify_AddToCart_from_PDP, 1. Item should be added to cart
+2. Appropriat...)</span>
+                <span class="method-start">10599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC26_Verify_Clear_Cart, All the items must be removed from the cart, NO, High)</span>
+                <span class="method-start">10615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC13_Verify_Search_Dimensions, Search results should appear
+Dimensions appear...)</span>
+                <span class="method-start">10627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC14_Verify_AddToCart_from_Search, Item should be added to cart, NO, High)</span>
+                <span class="method-start">10640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC15_Verify_ViewFullCart, 1. Cart should display
+2. All items in cart must ha...)</span>
+                <span class="method-start">10656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC16_Update_Quantity_CartPage, Items  and price must update, NO, High)</span>
+                <span class="method-start">10671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC17_Verify_CheckoutButton, Items  and price must update, NO, High)</span>
+                <span class="method-start">10687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC18_Verify_ShippingPage, Shipping page must appear, NO, High)</span>
+                <span class="method-start">10703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC19_Verify_ShippingMethod, Shipping method page should display, NO, High)</span>
+                <span class="method-start">10719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC02_Login_RegisteredUser, Verify Login for Registered User, Yes, High)</span>
+                <span class="method-start">10734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, jav...)</span>
+                <span class="method-start">10734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC02_Verify_MYACC_RegisteredUser, Verify Myaccounts Section for Registered Us...)</span>
+                <span class="method-start">256169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC23_Verify_UserRegistration, User should be registered and logged in, Yes, H...)</span>
+                <span class="method-start">256335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC27_Verify_Store_room, Products must be added to store room successfully, Ye...)</span>
+                <span class="method-start">256441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC29_VerifyALL_Links_Myaccount, All the pages must be displayed, Yes, High)</span>
+                <span class="method-start">256523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256523 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC30_Search_Typeahead, Type ahead must be displayed, Yes, High)</span>
+                <span class="method-start">256602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC31_Verify_login, User should be able to login successfully, Yes, High)</span>
+                <span class="method-start">256673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ExecuteTest(ALL_PAGES, END_TO_END, TC32_Verify_store_location, 1. Go to site and then go to store location page
+...)</span>
+                <span class="method-start">256737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TestResults([TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, ...)</span>
+                <span class="method-start">256797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">close</span>
+                <span class="method-start">256939 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">closebrowser(chrome)</span>
+                <span class="method-start">257468 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
