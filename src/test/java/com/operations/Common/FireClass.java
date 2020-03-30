@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
@@ -46,9 +47,10 @@ public class FireClass {
 
 	}
 
-	public void FailedTCOperation(String Object,Script_executor screxe,WebDriver webdriver,Xls_writer xls_writer,Map<Integer, Object[]> Testscase_failresults ,String browser_name,String Functionality,String Testcasenumber, 
+	public void FailedTCOperation(WebDriver driver,String Object,Script_executor screxe,WebDriver webdriver,Xls_writer xls_writer,Map<Integer, Object[]> Testscase_failresults ,String browser_name,String Functionality,String Testcasenumber, 
 			String Severity,SimpleDateFormat StartTime,Date Startdate,SoftAssert softAssert,ExtentTest test,ExtentReports extent) throws Exception {
 
+		driver.close();
 		uc.getUserConfig();
 
 		Object=screxe.Object;
@@ -77,6 +79,12 @@ public class FireClass {
 		webdriver.findElement(By.xpath("//*[@id='logout-button']")).click();
 		//test.fail(MarkupHelper.createLabel(Testcasenumber+" has been failed....", ExtentColor.RED));
 		*/Assert.fail(failmsg);
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/Browser_files/chromedriver_win32/chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
+		webdriver = new ChromeDriver();
+		//Dimension d = new Dimension(DeviceScrWidth, DeviceScrHeight);
+		//webdriver.manage().window().setSize(d);
+		webdriver.manage().window().maximize();
 	}
 
 

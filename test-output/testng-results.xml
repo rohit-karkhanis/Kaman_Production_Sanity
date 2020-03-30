@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="28" passed="26">
+<testng-results skipped="27" failed="2" total="29" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2050062" started-at="2020-03-24T06:32:29Z" finished-at="2020-03-24T07:06:39Z">
+  <suite name="Suite" duration-ms="12905" started-at="2020-03-30T05:17:48Z" finished-at="2020-03-30T05:18:01Z">
     <groups>
     </groups>
-    <test name="Chrome_test" duration-ms="2050062" started-at="2020-03-24T06:32:29Z" finished-at="2020-03-24T07:06:39Z">
+    <test name="Chrome_test" duration-ms="12905" started-at="2020-03-30T05:17:48Z" finished-at="2020-03-30T05:18:01Z">
       <class name="com.testcases.driverscripts.Execute_MainScript">
-        <test-method status="PASS" signature="Pre_requisite()[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="Pre_requisite" is-config="true" duration-ms="146" started-at="2020-03-24T12:02:28Z" finished-at="2020-03-24T12:02:29Z">
+        <test-method status="PASS" signature="Pre_requisite()[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="Pre_requisite" is-config="true" duration-ms="124" started-at="2020-03-30T10:47:48Z" finished-at="2020-03-30T10:47:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Pre_requisite -->
-        <test-method status="PASS" signature="EnvSetup(java.lang.String, java.lang.String, java.lang.String, int, int)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="EnvSetup" is-config="true" duration-ms="9623" started-at="2020-03-24T12:02:29Z" finished-at="2020-03-24T12:02:38Z">
+        <test-method status="PASS" signature="EnvSetup(java.lang.String, java.lang.String, java.lang.String, int, int)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="EnvSetup" is-config="true" duration-ms="9512" started-at="2020-03-30T10:47:48Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnvSetup -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="17538" started-at="2020-03-24T12:02:39Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:02:57Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="87" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -75,21 +75,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC01_Verify_HomePage has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC01_Verify_HomePage has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="14" started-at="2020-03-24T12:02:57Z" finished-at="2020-03-24T12:02:57Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="9" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="129669" started-at="2020-03-24T12:02:57Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:05:06Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -113,7 +147,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -122,21 +156,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC02_Verify_HOME_PDP_PLP_CATEGORY has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC02_Verify_HOME_PDP_PLP_CATEGORY has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:05:06Z" finished-at="2020-03-24T12:05:06Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="57769" started-at="2020-03-24T12:05:06Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:06:04Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="10" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -161,7 +229,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -170,21 +238,44 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC03_Verify_BLP_Solutions_ContactUS has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC03_Verify_BLP_Solutions_ContactUS has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:06:04Z" finished-at="2020-03-24T12:06:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="5610" started-at="2020-03-24T12:06:04Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:06:10Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -208,7 +299,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -217,21 +308,66 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC04_Search_product_not_in_Catalog has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC04_Search_product_not_in_Catalog has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:06:10Z" finished-at="2020-03-24T12:06:10Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="24358" started-at="2020-03-24T12:06:10Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:06:34Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -255,7 +391,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -264,10 +400,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC05_Search_product_in_Catalog has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC05_Search_product_in_Catalog has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="44094" started-at="2020-03-24T12:06:34Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:07:18Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -293,7 +474,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -302,21 +483,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC6_SearchResults_Typeahead has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC6_SearchResults_Typeahead has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:06:34Z" finished-at="2020-03-24T12:06:34Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="33004" started-at="2020-03-24T12:07:18Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:07:51Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -340,7 +555,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -349,32 +564,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC07_SearchCategory has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC07_SearchCategory has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:07:18Z" finished-at="2020-03-24T12:07:18Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:07:51Z" finished-at="2020-03-24T12:07:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="51537" started-at="2020-03-24T12:07:51Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:08:43Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="10" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -398,7 +636,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -407,21 +645,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC08_VerifyProductListPLP has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC08_VerifyProductListPLP has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:08:43Z" finished-at="2020-03-24T12:08:43Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="17913" started-at="2020-03-24T12:08:43Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:09:01Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -445,7 +717,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -454,21 +726,44 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC09_Verify_Documented_Savings has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC09_Verify_Documented_Savings has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:09:01Z" finished-at="2020-03-24T12:09:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="51797" started-at="2020-03-24T12:09:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:09:53Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -492,7 +787,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -501,21 +796,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC10_Verify_Search_results has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC10_Verify_Search_results has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:09:53Z" finished-at="2020-03-24T12:09:53Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="32685" started-at="2020-03-24T12:09:53Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:10:25Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -539,7 +868,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -548,21 +877,66 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC11_Verify_PDP_From_Search_results has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC11_Verify_PDP_From_Search_results has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:10:25Z" finished-at="2020-03-24T12:10:25Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="106937" started-at="2020-03-24T12:10:25Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:12:12Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -587,7 +961,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -596,21 +970,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC12_Verify_AddToCart_from_PDP has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC12_Verify_AddToCart_from_PDP has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:12:12Z" finished-at="2020-03-24T12:12:12Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="151855" started-at="2020-03-24T12:12:12Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:14:44Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="7" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -634,7 +1042,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -643,10 +1051,55 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC26_Verify_Clear_Cart has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC26_Verify_Clear_Cart has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="27115" started-at="2020-03-24T12:14:44Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:15:11Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="9" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -671,7 +1124,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -680,32 +1133,55 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC13_Verify_Search_Dimensions has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC13_Verify_Search_Dimensions has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:14:44Z" finished-at="2020-03-24T12:14:44Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:15:11Z" finished-at="2020-03-24T12:15:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="30721" started-at="2020-03-24T12:15:11Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:15:42Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -729,7 +1205,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -738,21 +1214,55 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC14_Verify_AddToCart_from_Search has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC14_Verify_AddToCart_from_Search has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:15:42Z" finished-at="2020-03-24T12:15:42Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="109295" started-at="2020-03-24T12:15:42Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:17:31Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -777,7 +1287,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -786,21 +1296,55 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC15_Verify_ViewFullCart has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC15_Verify_ViewFullCart has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="4" started-at="2020-03-24T12:17:31Z" finished-at="2020-03-24T12:17:31Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="89194" started-at="2020-03-24T12:17:31Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:19:00Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="10" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -824,7 +1368,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -833,21 +1377,54 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC16_Update_Quantity_CartPage has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC16_Update_Quantity_CartPage has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:19:00Z" finished-at="2020-03-24T12:19:00Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="85578" started-at="2020-03-24T12:19:00Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:20:26Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -871,7 +1448,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -880,21 +1457,54 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC17_Verify_CheckoutButton has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC17_Verify_CheckoutButton has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:20:26Z" finished-at="2020-03-24T12:20:26Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:58Z" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="96861" started-at="2020-03-24T12:20:26Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:22:03Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="12" started-at="2020-03-30T10:47:58Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:58Z">
           <params>
             <param index="0">
               <value>
@@ -918,7 +1528,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -927,10 +1537,43 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC18_Verify_ShippingPage has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC18_Verify_ShippingPage has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="114225" started-at="2020-03-24T12:22:03Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:23:57Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="8" started-at="2020-03-30T10:47:59Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:47:59Z">
           <params>
             <param index="0">
               <value>
@@ -954,7 +1597,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -963,21 +1606,65 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC19_Verify_ShippingMethod has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC19_Verify_ShippingMethod has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:22:03Z" finished-at="2020-03-24T12:22:03Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:59Z" finished-at="2020-03-30T10:47:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="133175" started-at="2020-03-24T12:23:57Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:26:10Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:47:59Z" finished-at="2020-03-30T10:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="2475" started-at="2020-03-30T10:47:59Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
@@ -1010,32 +1697,149 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:97)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:279)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:97)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:279)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:329)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:23:57Z" finished-at="2020-03-24T12:23:57Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:26:10Z" finished-at="2020-03-24T12:26:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="84600" started-at="2020-03-24T12:26:10Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:27:35Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="21" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
@@ -1059,7 +1863,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -1068,21 +1872,54 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC02_Verify_MYACC_RegisteredUser has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC02_Verify_MYACC_RegisteredUser has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:27:35Z" finished-at="2020-03-24T12:27:35Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="80121" started-at="2020-03-24T12:27:35Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:28:55Z">
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="74" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
@@ -1115,192 +1952,202 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:28:55Z" finished-at="2020-03-24T12:28:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="150712" started-at="2020-03-24T12:28:55Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:31:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ALL_PAGES]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[END_TO_END]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TC27_Verify_Store_room]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Products must be added to store room successfully]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[High]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:31:26Z" finished-at="2020-03-24T12:31:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="234056" started-at="2020-03-24T12:31:26Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:35:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ALL_PAGES]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[END_TO_END]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TC29_VerifyALL_Links_Myaccount]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[All the pages must be displayed]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[High]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:35:20Z" finished-at="2020-03-24T12:35:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="4569" started-at="2020-03-24T12:35:20Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:35:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ALL_PAGES]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[END_TO_END]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TC30_Search_Typeahead]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Type ahead must be displayed]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[High]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTest -->
-        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="45772" started-at="2020-03-24T12:35:24Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:36:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ALL_PAGES]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[END_TO_END]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TC31_Verify_login]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[User should be able to login successfully]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Yes]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[High]]>
-              </value>
-            </param>
-          </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Welcomeelement.]]>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:97)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:279)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:97)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:279)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Welcomeelement.
+              <![CDATA[java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:386)
+	at com.Utilities.ScreenshotsUtility.Screenshots(ScreenshotsUtility.java:34)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:125)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:97)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:279)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)
+	at com.operations.Common.Keywords.NAVIGATE_URL(Keywords.java:267)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:85)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:97)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:279)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
 	at org.testng.Assert.fail(Assert.java:94)
-	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:79)
-	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:305)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:329)
 	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
@@ -1330,29 +2177,338 @@ Dimensions appear on left]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:35:24Z" finished-at="2020-03-24T12:35:24Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-24T12:36:10Z" finished-at="2020-03-24T12:36:10Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="10" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC27_Verify_Store_room]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products must be added to store room successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC27_Verify_Store_room has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC27_Verify_Store_room has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="9" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC29_VerifyALL_Links_Myaccount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[All the pages must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC29_VerifyALL_Links_Myaccount has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC29_VerifyALL_Links_Myaccount has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="ExecuteTest" duration-ms="28484" started-at="2020-03-24T12:36:10Z" data-provider="Fetch_Master_data" finished-at="2020-03-24T12:36:39Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC30_Search_Typeahead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Type ahead must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC30_Search_Typeahead has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC30_Search_Typeahead has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="9" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC31_Verify_login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User should be able to login successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC31_Verify_login has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC31_Verify_login has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
@@ -1378,7 +2534,7 @@ Dimensions appear on left]]>
             </param>
             <param index="4">
               <value>
-                <![CDATA[Yes]]>
+                <![CDATA[No]]>
               </value>
             </param>
             <param index="5">
@@ -1387,15 +2543,13 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Uname1.]]>
+              <![CDATA[TC32_Verify_store_location has been skipped..]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Uname1.
-	at org.testng.Assert.fail(Assert.java:94)
-	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:79)
-	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:305)
+              <![CDATA[org.testng.SkipException: TC32_Verify_store_location has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
 	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
@@ -1421,26 +2575,107 @@ Dimensions appear on left]]>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExecuteTest -->
-        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-24T12:36:39Z" finished-at="2020-03-24T12:36:39Z">
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5] output={null}]]]>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestResults -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="close" is-config="true" duration-ms="461" started-at="2020-03-24T12:36:39Z" finished-at="2020-03-24T12:36:39Z">
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="ExecuteTest" duration-ms="11" started-at="2020-03-30T10:48:01Z" data-provider="Fetch_Master_data" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC39_Add_MultipleItems_to_cart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. more than 10 Items should be added to cart
+2. Appropriate inventory message must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC39_Add_MultipleItems_to_cart has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC39_Add_MultipleItems_to_cart has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:346)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="close" is-config="true" duration-ms="239" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="closebrowser(java.lang.String)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@cd2dae5]" name="closebrowser" is-config="true" duration-ms="4130" started-at="2020-03-24T12:36:39Z" finished-at="2020-03-24T12:36:43Z">
+        <test-method status="FAIL" signature="closebrowser(java.lang.String)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@6737fd8f]" name="closebrowser" is-config="true" duration-ms="0" started-at="2020-03-30T10:48:01Z" finished-at="2020-03-30T10:48:01Z">
           <params>
             <param index="0">
               <value>
@@ -1448,6 +2683,58 @@ Dimensions appear on left]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir18164_1947788740}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:51715}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: f04baf235ad58ed301e85af4427fe189
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:527)
+	at com.testcases.driverscripts.Execute_MainScript.closebrowser(Execute_MainScript.java:431)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:336)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
