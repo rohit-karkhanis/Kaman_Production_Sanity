@@ -15,7 +15,6 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TimeoutException;
@@ -310,13 +309,6 @@ public class Execute_MainScript {
 			catch(NoSuchElementException Nse) {
 
 				Nse.printStackTrace(new PrintWriter(stack));
-				Applog.error(stack.toString());
-				FC.FailedTCOperation(webdriver,Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
-
-			}
-			catch(ElementClickInterceptedException Ce) {
-
-				Ce.printStackTrace(new PrintWriter(stack));
 				Applog.error(stack.toString());
 				FC.FailedTCOperation(webdriver,Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
 
