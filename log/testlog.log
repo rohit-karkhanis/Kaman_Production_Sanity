@@ -232,3 +232,2262 @@ Driver info: driver.version: unknown
 2020-03-30 14:18:27,541 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
 2020-03-30 14:18:27,542 - Kaman -INFO - Execution Ended for testcase number : TC41_Add_MultipleItems_to_cart_Prod at time : 2020-03-30 14:08
 2020-03-30 14:18:28,101 - Kaman -INFO - Execution ended on : 2020-03-30_14-18-28
+2020-04-02 17:16:08,451 - Kaman -INFO - Execution started on 2020-04-02_17-16-08
+2020-04-02 17:16:38,122 - Kaman -INFO - Execution started on 2020-04-02_17-16-38
+2020-04-02 17:16:48,256 - Kaman -INFO - Execution Started for Testcase number : TC01_Verify_HomePage at time : 2020-04-02 17:16
+2020-04-02 17:17:02,327 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:17:02,699 - Kaman -INFO - Execution Ended for testcase number : TC01_Verify_HomePage at time : 2020-04-02 17:16
+2020-04-02 17:17:02,773 - Kaman -INFO - Execution Started for Testcase number : TC02_Verify_HOME_PDP_PLP_CATEGORY at time : 2020-04-02 17:17
+2020-04-02 17:17:06,994 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:17:07,310 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:17:23,434 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:17:23,548 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:17:23,662 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:17:38,471 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:17:59,882 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:18:07,152 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:18:34,224 - Kaman -INFO - Execution started on 2020-04-02_17-18-34
+2020-04-02 17:18:44,459 - Kaman -INFO - Execution Started for Testcase number : TC01_Verify_HomePage at time : 2020-04-02 17:18
+2020-04-02 17:18:53,996 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:18:54,406 - Kaman -INFO - Execution Ended for testcase number : TC01_Verify_HomePage at time : 2020-04-02 17:18
+2020-04-02 17:18:54,503 - Kaman -INFO - Execution Started for Testcase number : TC02_Verify_HOME_PDP_PLP_CATEGORY at time : 2020-04-02 17:18
+2020-04-02 17:18:58,196 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:18:58,535 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:19:23,941 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:19:24,103 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:19:24,228 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:19:37,533 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:22:37,649 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:24:24,218 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:24:24,538 - Kaman -INFO - Execution Ended for testcase number : TC02_Verify_HOME_PDP_PLP_CATEGORY at time : 2020-04-02 17:18
+2020-04-02 17:24:24,608 - Kaman -INFO - Execution Started for Testcase number : TC03_Verify_BLP_Solutions_ContactUS at time : 2020-04-02 17:24
+2020-04-02 17:24:28,551 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:24:43,561 - Kaman -INFO - WebElement BrandsMenu Successfully identified
+2020-04-02 17:24:43,604 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Brands | KamanDirect
+2020-04-02 17:24:52,109 - Kaman -INFO - WebElement ContactMenu Successfully identified
+2020-04-02 17:25:12,133 - Kaman -ERROR - TEXT : Contact Kaman Industrial TechnologiesWhich you are looking for WebelementContactUSHeaderNOT found...!!!!
+2020-04-02 17:25:12,134 - Kaman -INFO - Execution Ended for testcase number : TC03_Verify_BLP_Solutions_ContactUS at time : 2020-04-02 17:24
+2020-04-02 17:25:12,187 - Kaman -INFO - Execution Started for Testcase number : TC04_Search_product_not_in_Catalog at time : 2020-04-02 17:25
+2020-04-02 17:25:17,455 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:26:05,825 - Kaman -INFO - TEXT : No matching items foundWhich you are looking for Webelement InvalidSearch has been found successfully...
+2020-04-02 17:26:05,825 - Kaman -INFO - Execution Ended for testcase number : TC04_Search_product_not_in_Catalog at time : 2020-04-02 17:25
+2020-04-02 17:26:05,875 - Kaman -INFO - Execution Started for Testcase number : TC05_Search_product_in_Catalog at time : 2020-04-02 17:26
+2020-04-02 17:26:11,839 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:26:18,823 - Kaman -INFO - TEXT : 203KDD_RADIAL BALL BEARINGWhich you are looking for Webelement ValidSearchHeader has been found successfully...
+2020-04-02 17:26:18,926 - Kaman -INFO - Execution Ended for testcase number : TC05_Search_product_in_Catalog at time : 2020-04-02 17:26
+2020-04-02 17:26:18,984 - Kaman -INFO - Execution Started for Testcase number : TC6_SearchResults_Typeahead at time : 2020-04-02 17:26
+2020-04-02 17:26:23,532 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:26:58,509 - Kaman -ERROR - TEXT : Showing Results for "sprocket"Which you are looking for WebelementValidSearchHeaderNOT found...!!!!
+2020-04-02 17:26:58,509 - Kaman -INFO - Execution Ended for testcase number : TC6_SearchResults_Typeahead at time : 2020-04-02 17:26
+2020-04-02 17:26:58,558 - Kaman -INFO - Execution Started for Testcase number : TC07_SearchCategory at time : 2020-04-02 17:26
+2020-04-02 17:27:20,787 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:27:21,084 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:27:39,263 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:27:39,371 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:27:39,489 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:27:39,490 - Kaman -INFO - Execution Ended for testcase number : TC07_SearchCategory at time : 2020-04-02 17:26
+2020-04-02 17:27:39,533 - Kaman -INFO - Execution Started for Testcase number : TC08_VerifyProductListPLP at time : 2020-04-02 17:27
+2020-04-02 17:27:53,893 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:27:54,207 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:27:55,171 - Kaman -INFO - WebElement Bearing Successfully identified
+2020-04-02 17:28:16,803 - Kaman -INFO - WebElement Ball Successfully identified
+2020-04-02 17:28:31,299 - Kaman -INFO - WebElement PillowBlock Successfully identified
+2020-04-02 17:28:31,441 - Kaman -INFO - Execution Ended for testcase number : TC08_VerifyProductListPLP at time : 2020-04-02 17:27
+2020-04-02 17:28:31,480 - Kaman -INFO - Execution Started for Testcase number : TC09_Verify_Documented_Savings at time : 2020-04-02 17:28
+2020-04-02 17:28:56,763 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:28:57,801 - Kaman -INFO - WebElement Services Successfully identified
+2020-04-02 17:29:12,021 - Kaman -INFO - WebElement DocumentedSavings Successfully identified
+2020-04-02 17:29:12,262 - Kaman -INFO - Execution Ended for testcase number : TC09_Verify_Documented_Savings at time : 2020-04-02 17:28
+2020-04-02 17:29:12,307 - Kaman -INFO - Execution Started for Testcase number : TC10_Verify_Search_results at time : 2020-04-02 17:29
+2020-04-02 17:29:16,936 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:29:28,281 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-02 17:29:28,531 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-02 17:29:36,820 - Kaman -INFO - WebElement PDPSearch Successfully identified
+2020-04-02 17:29:36,929 - Kaman -INFO - Execution Ended for testcase number : TC10_Verify_Search_results at time : 2020-04-02 17:29
+2020-04-02 17:29:36,974 - Kaman -INFO - Execution Started for Testcase number : TC11_Verify_PDP_From_Search_results at time : 2020-04-02 17:29
+2020-04-02 17:29:40,691 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:29:51,669 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-02 17:29:51,922 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-02 17:30:01,025 - Kaman -INFO - WebElement PDPSearch Successfully identified
+2020-04-02 17:30:01,025 - Kaman -INFO - Execution Ended for testcase number : TC11_Verify_PDP_From_Search_results at time : 2020-04-02 17:29
+2020-04-02 17:30:01,075 - Kaman -INFO - Execution Started for Testcase number : TC12_Verify_AddToCart_from_PDP at time : 2020-04-02 17:30
+2020-04-02 17:30:04,580 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:30:04,941 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:30:30,609 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:30:30,846 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:30:30,983 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:30:43,953 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:31:05,331 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:31:14,481 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:31:24,846 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:31:26,005 - Kaman -INFO - Execution Ended for testcase number : TC12_Verify_AddToCart_from_PDP at time : 2020-04-02 17:30
+2020-04-02 17:31:26,048 - Kaman -INFO - Execution Started for Testcase number : TC26_Verify_Clear_Cart at time : 2020-04-02 17:31
+2020-04-02 17:31:28,513 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:31:28,815 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:31:43,949 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:31:44,091 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:31:44,202 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:31:57,210 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:32:09,513 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:32:27,743 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:32:38,122 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:32:44,702 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-02 17:33:04,963 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-02 17:33:10,633 - Kaman -INFO - WebElement SelectAllforDelete Successfully identified
+2020-04-02 17:33:15,912 - Kaman -INFO - WebElement RemoveCartItems Successfully identified
+2020-04-02 17:33:25,269 - Kaman -INFO - WebElement RemoveCartContinue Successfully identified
+2020-04-02 17:33:25,366 - Kaman -INFO - TEXT : You have no items in your shopping cart.Which you are looking for Webelement EmptyCartMsg has been found successfully...
+2020-04-02 17:33:25,366 - Kaman -INFO - Execution Ended for testcase number : TC26_Verify_Clear_Cart at time : 2020-04-02 17:31
+2020-04-02 17:33:25,416 - Kaman -INFO - Execution Started for Testcase number : TC13_Verify_Search_Dimensions at time : 2020-04-02 17:33
+2020-04-02 17:33:28,241 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:33:42,545 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-02 17:33:42,792 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-02 17:33:42,915 - Kaman -INFO - Execution Ended for testcase number : TC13_Verify_Search_Dimensions at time : 2020-04-02 17:33
+2020-04-02 17:33:42,952 - Kaman -INFO - Execution Started for Testcase number : TC14_Verify_AddToCart_from_Search at time : 2020-04-02 17:33
+2020-04-02 17:33:47,826 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:34:00,932 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-02 17:34:01,195 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-02 17:34:06,527 - Kaman -INFO - WebElement AddToCartSearch Successfully identified
+2020-04-02 17:34:07,694 - Kaman -INFO - Execution Ended for testcase number : TC14_Verify_AddToCart_from_Search at time : 2020-04-02 17:33
+2020-04-02 17:34:07,739 - Kaman -INFO - Execution Started for Testcase number : TC15_Verify_ViewFullCart at time : 2020-04-02 17:34
+2020-04-02 17:34:13,222 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:34:13,549 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:34:29,293 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:34:29,442 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:34:29,554 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:34:46,734 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:35:04,161 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:35:14,324 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:35:24,697 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:35:32,295 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-02 17:35:43,435 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-02 17:35:43,766 - Kaman -INFO - Execution Ended for testcase number : TC15_Verify_ViewFullCart at time : 2020-04-02 17:34
+2020-04-02 17:35:43,801 - Kaman -INFO - Execution Started for Testcase number : TC16_Update_Quantity_CartPage at time : 2020-04-02 17:35
+2020-04-02 17:35:46,952 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:35:47,207 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:36:01,522 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:36:01,655 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:36:01,785 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:36:13,894 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:36:26,536 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:36:37,298 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:36:47,708 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:36:54,843 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-02 17:37:05,522 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-02 17:37:27,578 - Kaman -INFO - WebElement UpdateQuantity Successfully identified
+2020-04-02 17:37:27,578 - Kaman -INFO - Execution Ended for testcase number : TC16_Update_Quantity_CartPage at time : 2020-04-02 17:35
+2020-04-02 17:37:27,615 - Kaman -INFO - Execution Started for Testcase number : TC17_Verify_CheckoutButton at time : 2020-04-02 17:37
+2020-04-02 17:37:42,777 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:37:43,036 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:37:58,596 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:37:58,728 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:37:58,832 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:38:11,633 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:38:36,789 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:38:53,237 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:39:03,613 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:39:10,759 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-02 17:39:21,676 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-02 17:39:29,382 - Kaman -INFO - WebElement CheckoutButton Successfully identified
+2020-04-02 17:39:29,622 - Kaman -INFO - Execution Ended for testcase number : TC17_Verify_CheckoutButton at time : 2020-04-02 17:37
+2020-04-02 17:39:29,662 - Kaman -INFO - Execution Started for Testcase number : TC18_Verify_ShippingPage at time : 2020-04-02 17:39
+2020-04-02 17:39:31,958 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:39:32,210 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:39:47,483 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:39:47,649 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:39:47,772 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:40:00,189 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:40:13,264 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:40:31,346 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:40:41,773 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:40:48,809 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-02 17:40:59,539 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-02 17:41:09,260 - Kaman -INFO - WebElement CheckoutButton Successfully identified
+2020-04-02 17:41:37,312 - Kaman -INFO - WebElement GuestCheckoutCheckoutPage Successfully identified
+2020-04-02 17:41:37,465 - Kaman -INFO - TEXT : Create a Shipping AddressWhich you are looking for Webelement ShippingHeader has been found successfully...
+2020-04-02 17:41:37,651 - Kaman -INFO - Execution Ended for testcase number : TC18_Verify_ShippingPage at time : 2020-04-02 17:39
+2020-04-02 17:41:37,693 - Kaman -INFO - Execution Started for Testcase number : TC19_Verify_ShippingMethod at time : 2020-04-02 17:41
+2020-04-02 17:41:45,417 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:41:45,716 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:42:20,813 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:42:20,960 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-02 17:42:21,092 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-02 17:42:34,913 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-02 17:42:51,001 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-02 17:43:09,892 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-02 17:43:20,256 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:43:27,357 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-02 17:43:35,746 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-02 17:43:44,020 - Kaman -INFO - WebElement CheckoutButton Successfully identified
+2020-04-02 17:43:58,364 - Kaman -INFO - WebElement GuestCheckoutCheckoutPage Successfully identified
+2020-04-02 17:43:58,461 - Kaman -INFO - TEXT : Create a Shipping AddressWhich you are looking for Webelement ShippingHeader has been found successfully...
+2020-04-02 17:44:14,407 - Kaman -INFO - WebElement ShiptothisAddressButton Successfully identified
+2020-04-02 17:44:14,633 - Kaman -INFO - Execution Ended for testcase number : TC19_Verify_ShippingMethod at time : 2020-04-02 17:41
+2020-04-02 17:44:14,663 - Kaman -INFO - Execution Started for Testcase number : TC02_Login_RegisteredUser at time : 2020-04-02 17:44
+2020-04-02 17:44:19,005 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:44:24,340 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:47:31,515 - Kaman -INFO - WebElement LoginURL Successfully identified
+2020-04-02 17:47:51,530 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:47:51,585 - Kaman -INFO - Execution Started for Testcase number : TC02_Verify_MYACC_RegisteredUser at time : 2020-04-02 17:47
+2020-04-02 17:47:54,559 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:47:59,860 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:48:20,300 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:48:20,401 - Kaman -INFO - Execution Started for Testcase number : TC23_Verify_UserRegistration at time : 2020-04-02 17:48
+2020-04-02 17:48:24,164 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:48:29,506 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:48:54,863 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="login-nav"]/p[2]/a[1] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:144)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="login-nav"]/p[2]/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:48:54,895 - Kaman -INFO - Execution Started for Testcase number : TC27_Verify_Store_room at time : 2020-04-02 17:48
+2020-04-02 17:48:59,543 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:49:04,899 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:49:25,329 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="login-nav"]/p[2]/a[1] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:144)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="login-nav"]/p[2]/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:49:25,372 - Kaman -INFO - Execution Started for Testcase number : TC29_VerifyALL_Links_Myaccount at time : 2020-04-02 17:49
+2020-04-02 17:49:29,054 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:49:34,377 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:49:54,816 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="login-nav"]/p[2]/a[1] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:144)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="login-nav"]/p[2]/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:49:54,856 - Kaman -INFO - Execution Started for Testcase number : TC30_Search_Typeahead at time : 2020-04-02 17:49
+2020-04-02 17:50:01,744 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:50:03,674 - Kaman -INFO - Execution Ended for testcase number : TC30_Search_Typeahead at time : 2020-04-02 17:49
+2020-04-02 17:50:03,711 - Kaman -INFO - Execution Started for Testcase number : TC31_Verify_login at time : 2020-04-02 17:50
+2020-04-02 17:50:07,433 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:50:12,741 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:50:33,173 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="login-nav"]/p[2]/a[1] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:144)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="login-nav"]/p[2]/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:50:33,212 - Kaman -INFO - Execution Started for Testcase number : TC32_Verify_store_location at time : 2020-04-02 17:50
+2020-04-02 17:50:41,451 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-02 17:50:46,753 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-02 17:51:07,195 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="login-nav"]/p[2]/a[1] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:144)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="login-nav"]/p[2]/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+
+2020-04-02 17:51:07,249 - Kaman -INFO - Execution Started for Testcase number : TC41_Add_MultipleItems_to_cart_Prod at time : 2020-04-02 17:51
+2020-04-02 17:51:28,882 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/
+2020-04-02 17:51:29,157 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:51:30,130 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:51:37,085 - Kaman -INFO - WebElement ShaftMount Successfully identified
+2020-04-02 17:51:56,381 - Kaman -INFO - WebElement itemp1 Successfully identified
+2020-04-02 17:52:06,726 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:52:31,327 - Kaman -INFO - WebElement itemp2 Successfully identified
+2020-04-02 17:52:41,639 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:52:52,850 - Kaman -INFO - WebElement itemp3 Successfully identified
+2020-04-02 17:53:03,215 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-02 17:53:08,544 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-02 17:53:09,700 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-02 17:53:29,259 - Kaman -INFO - WebElement Category1 Successfully identified
+2020-04-02 17:53:41,606 - Kaman -ERROR - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress1"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="login-nav"]/p[2]/a[1] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:144)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="login-nav"]/p[2]/a[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="atg_store_registerLoginEmailAddress"] (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.operations.Common.Keywords.ENTERTEXT(Keywords.java:303)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:109)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:111)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //*[@id="atg_store_registerLoginEmailAddress"]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="/storeus/product/963763/963763-BELT-GUARD-ASSEMBLY/_/R-1758299">...</a> is not clickable at point (695, 604). Other element would receive the click: <p class="text-center anonymous-header hidden-xs hidden-sm">...</p>
+  (Session info: chrome=80.0.3987.149)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'LSPL309-PC', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\LSPL309\AppData\Local\Temp\scoped_dir31828_1047165359}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:57346}, acceptInsecureCerts=false, browserVersion=80.0.3987.149, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true}]
+Session ID: fd6ba9ab28dc407e5036d49ba2496988
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.operations.Common.Keywords.CLICK(Keywords.java:155)
+	at com.operations.Common.Keywords_finder.perform(Keywords_finder.java:61)
+	at com.operations.Common.Script_executor.Execute_script(Script_executor.java:116)
+	at com.operations.Common.FireClass.ExecuteTestcasesWindows(FireClass.java:95)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:297)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2020-04-02 17:53:42,103 - Kaman -INFO - Execution ended on : 2020-04-02_17-53-42
+2020-04-03 09:26:45,059 - Kaman -INFO - Execution started on 2020-04-03_09-26-44
+2020-04-03 09:26:55,100 - Kaman -INFO - Execution Started for Testcase number : TC01_Verify_HomePage at time : 2020-04-03 09:26
+2020-04-03 09:26:58,202 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:26:58,445 - Kaman -INFO - Execution Ended for testcase number : TC01_Verify_HomePage at time : 2020-04-03 09:26
+2020-04-03 09:26:58,494 - Kaman -INFO - Execution Started for Testcase number : TC02_Verify_HOME_PDP_PLP_CATEGORY at time : 2020-04-03 09:26
+2020-04-03 09:27:00,086 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:27:00,355 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:27:19,876 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:27:19,992 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:27:20,082 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:27:37,338 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:27:59,193 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:28:09,953 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:28:10,190 - Kaman -INFO - Execution Ended for testcase number : TC02_Verify_HOME_PDP_PLP_CATEGORY at time : 2020-04-03 09:26
+2020-04-03 09:28:10,224 - Kaman -INFO - Execution Started for Testcase number : TC03_Verify_BLP_Solutions_ContactUS at time : 2020-04-03 09:28
+2020-04-03 09:28:11,837 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:28:21,975 - Kaman -INFO - WebElement BrandsMenu Successfully identified
+2020-04-03 09:28:22,037 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Brands | KamanDirect
+2020-04-03 09:28:29,896 - Kaman -INFO - WebElement ContactMenu Successfully identified
+2020-04-03 09:28:50,179 - Kaman -ERROR - TEXT : Contact Kaman Industrial TechnologiesWhich you are looking for WebelementContactUSHeaderNOT found...!!!!
+2020-04-03 09:28:50,179 - Kaman -INFO - Execution Ended for testcase number : TC03_Verify_BLP_Solutions_ContactUS at time : 2020-04-03 09:28
+2020-04-03 09:28:50,205 - Kaman -INFO - Execution Started for Testcase number : TC04_Search_product_not_in_Catalog at time : 2020-04-03 09:28
+2020-04-03 09:28:51,810 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:28:55,012 - Kaman -INFO - TEXT : No matching items foundWhich you are looking for Webelement InvalidSearch has been found successfully...
+2020-04-03 09:28:55,013 - Kaman -INFO - Execution Ended for testcase number : TC04_Search_product_not_in_Catalog at time : 2020-04-03 09:28
+2020-04-03 09:28:55,060 - Kaman -INFO - Execution Started for Testcase number : TC05_Search_product_in_Catalog at time : 2020-04-03 09:28
+2020-04-03 09:28:57,086 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:29:02,596 - Kaman -INFO - TEXT : 203KDD_RADIAL BALL BEARINGWhich you are looking for Webelement ValidSearchHeader has been found successfully...
+2020-04-03 09:29:02,654 - Kaman -INFO - Execution Ended for testcase number : TC05_Search_product_in_Catalog at time : 2020-04-03 09:28
+2020-04-03 09:29:02,681 - Kaman -INFO - Execution Started for Testcase number : TC6_SearchResults_Typeahead at time : 2020-04-03 09:29
+2020-04-03 09:29:04,581 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:29:41,482 - Kaman -ERROR - TEXT : Showing Results for "sprocket"Which you are looking for WebelementValidSearchHeaderNOT found...!!!!
+2020-04-03 09:29:41,482 - Kaman -INFO - Execution Ended for testcase number : TC6_SearchResults_Typeahead at time : 2020-04-03 09:29
+2020-04-03 09:29:41,504 - Kaman -INFO - Execution Started for Testcase number : TC07_SearchCategory at time : 2020-04-03 09:29
+2020-04-03 09:29:43,595 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:29:43,827 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:30:05,326 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:30:05,419 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:30:05,489 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:30:05,489 - Kaman -INFO - Execution Ended for testcase number : TC07_SearchCategory at time : 2020-04-03 09:29
+2020-04-03 09:30:05,512 - Kaman -INFO - Execution Started for Testcase number : TC08_VerifyProductListPLP at time : 2020-04-03 09:30
+2020-04-03 09:30:07,284 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:30:07,505 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:30:08,411 - Kaman -INFO - WebElement Bearing Successfully identified
+2020-04-03 09:30:28,411 - Kaman -INFO - WebElement Ball Successfully identified
+2020-04-03 09:30:43,903 - Kaman -INFO - WebElement PillowBlock Successfully identified
+2020-04-03 09:30:44,074 - Kaman -INFO - Execution Ended for testcase number : TC08_VerifyProductListPLP at time : 2020-04-03 09:30
+2020-04-03 09:30:44,096 - Kaman -INFO - Execution Started for Testcase number : TC09_Verify_Documented_Savings at time : 2020-04-03 09:30
+2020-04-03 09:30:45,667 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:30:46,611 - Kaman -INFO - WebElement Services Successfully identified
+2020-04-03 09:30:55,968 - Kaman -INFO - WebElement DocumentedSavings Successfully identified
+2020-04-03 09:30:56,202 - Kaman -INFO - Execution Ended for testcase number : TC09_Verify_Documented_Savings at time : 2020-04-03 09:30
+2020-04-03 09:30:56,223 - Kaman -INFO - Execution Started for Testcase number : TC10_Verify_Search_results at time : 2020-04-03 09:30
+2020-04-03 09:30:57,604 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:31:16,732 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-03 09:31:16,904 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-03 09:31:24,682 - Kaman -INFO - WebElement PDPSearch Successfully identified
+2020-04-03 09:31:24,780 - Kaman -INFO - Execution Ended for testcase number : TC10_Verify_Search_results at time : 2020-04-03 09:30
+2020-04-03 09:31:24,800 - Kaman -INFO - Execution Started for Testcase number : TC11_Verify_PDP_From_Search_results at time : 2020-04-03 09:31
+2020-04-03 09:31:26,487 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:31:38,374 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-03 09:31:38,626 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-03 09:31:46,240 - Kaman -INFO - WebElement PDPSearch Successfully identified
+2020-04-03 09:31:46,241 - Kaman -INFO - Execution Ended for testcase number : TC11_Verify_PDP_From_Search_results at time : 2020-04-03 09:31
+2020-04-03 09:31:46,275 - Kaman -INFO - Execution Started for Testcase number : TC12_Verify_AddToCart_from_PDP at time : 2020-04-03 09:31
+2020-04-03 09:31:47,840 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:31:48,151 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:32:05,784 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:32:05,974 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:32:06,040 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:32:23,488 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:32:38,745 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:32:48,645 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:32:58,894 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:33:00,015 - Kaman -INFO - Execution Ended for testcase number : TC12_Verify_AddToCart_from_PDP at time : 2020-04-03 09:31
+2020-04-03 09:33:00,056 - Kaman -INFO - Execution Started for Testcase number : TC26_Verify_Clear_Cart at time : 2020-04-03 09:33
+2020-04-03 09:33:01,844 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:33:02,124 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:33:21,791 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:33:21,914 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:33:22,020 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:33:37,545 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:33:54,799 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:34:13,106 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:34:23,311 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:34:29,638 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-03 09:34:37,999 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-03 09:34:43,395 - Kaman -INFO - WebElement SelectAllforDelete Successfully identified
+2020-04-03 09:34:48,607 - Kaman -INFO - WebElement RemoveCartItems Successfully identified
+2020-04-03 09:34:56,807 - Kaman -INFO - WebElement RemoveCartContinue Successfully identified
+2020-04-03 09:34:56,873 - Kaman -INFO - TEXT : You have no items in your shopping cart.Which you are looking for Webelement EmptyCartMsg has been found successfully...
+2020-04-03 09:34:56,873 - Kaman -INFO - Execution Ended for testcase number : TC26_Verify_Clear_Cart at time : 2020-04-03 09:33
+2020-04-03 09:34:56,895 - Kaman -INFO - Execution Started for Testcase number : TC13_Verify_Search_Dimensions at time : 2020-04-03 09:34
+2020-04-03 09:34:58,294 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:35:17,875 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-03 09:35:18,048 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-03 09:35:18,117 - Kaman -INFO - Execution Ended for testcase number : TC13_Verify_Search_Dimensions at time : 2020-04-03 09:34
+2020-04-03 09:35:18,136 - Kaman -INFO - Execution Started for Testcase number : TC14_Verify_AddToCart_from_Search at time : 2020-04-03 09:35
+2020-04-03 09:35:19,550 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:35:31,324 - Kaman -INFO - WebElement SearchButtonHomePage Successfully identified
+2020-04-03 09:35:31,533 - Kaman -INFO - TEXT : Showing Results for "200CL"Which you are looking for Webelement SearchHeader has been found successfully...
+2020-04-03 09:35:36,745 - Kaman -INFO - WebElement AddToCartSearch Successfully identified
+2020-04-03 09:35:38,409 - Kaman -INFO - Execution Ended for testcase number : TC14_Verify_AddToCart_from_Search at time : 2020-04-03 09:35
+2020-04-03 09:35:38,434 - Kaman -INFO - Execution Started for Testcase number : TC15_Verify_ViewFullCart at time : 2020-04-03 09:35
+2020-04-03 09:35:39,862 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:35:40,135 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:36:00,717 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:36:00,867 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:36:00,954 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:36:14,865 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:36:27,931 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:36:36,111 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:36:46,325 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:36:53,100 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-03 09:37:00,599 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-03 09:37:00,746 - Kaman -INFO - Execution Ended for testcase number : TC15_Verify_ViewFullCart at time : 2020-04-03 09:35
+2020-04-03 09:37:00,772 - Kaman -INFO - Execution Started for Testcase number : TC16_Update_Quantity_CartPage at time : 2020-04-03 09:37
+2020-04-03 09:37:02,190 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:37:02,398 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:37:20,785 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:37:20,896 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:37:20,995 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:37:33,144 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:37:47,068 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:37:54,812 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:38:04,988 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:38:11,749 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-03 09:38:19,374 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-03 09:38:26,969 - Kaman -INFO - WebElement UpdateQuantity Successfully identified
+2020-04-03 09:38:26,969 - Kaman -INFO - Execution Ended for testcase number : TC16_Update_Quantity_CartPage at time : 2020-04-03 09:37
+2020-04-03 09:38:26,996 - Kaman -INFO - Execution Started for Testcase number : TC17_Verify_CheckoutButton at time : 2020-04-03 09:38
+2020-04-03 09:38:28,604 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:38:28,827 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:38:44,133 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:38:44,266 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:38:44,348 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:38:56,253 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:39:08,136 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:39:16,205 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:39:26,382 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:39:33,156 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-03 09:39:41,271 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-03 09:39:50,400 - Kaman -INFO - WebElement CheckoutButton Successfully identified
+2020-04-03 09:39:50,514 - Kaman -INFO - Execution Ended for testcase number : TC17_Verify_CheckoutButton at time : 2020-04-03 09:38
+2020-04-03 09:39:50,535 - Kaman -INFO - Execution Started for Testcase number : TC18_Verify_ShippingPage at time : 2020-04-03 09:39
+2020-04-03 09:39:52,327 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:39:52,564 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:40:07,929 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:40:08,092 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:40:08,164 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:40:20,683 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:40:33,543 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:40:42,496 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:40:52,749 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:40:59,612 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-03 09:41:07,504 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-03 09:41:15,211 - Kaman -INFO - WebElement CheckoutButton Successfully identified
+2020-04-03 09:41:23,271 - Kaman -INFO - WebElement GuestCheckoutCheckoutPage Successfully identified
+2020-04-03 09:41:23,349 - Kaman -INFO - TEXT : Create a Shipping AddressWhich you are looking for Webelement ShippingHeader has been found successfully...
+2020-04-03 09:41:23,486 - Kaman -INFO - Execution Ended for testcase number : TC18_Verify_ShippingPage at time : 2020-04-03 09:39
+2020-04-03 09:41:23,514 - Kaman -INFO - Execution Started for Testcase number : TC19_Verify_ShippingMethod at time : 2020-04-03 09:41
+2020-04-03 09:41:25,426 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:41:25,658 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:41:41,877 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:41:42,038 - Kaman -INFO - TEXT : GearingWhich you are looking for Webelement GearingCategoryHeader has been found successfully...
+2020-04-03 09:41:42,154 - Kaman -INFO - Successfull navigated to Expected Page i.e. on : Gearing | KamanDirect
+2020-04-03 09:41:56,803 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:42:10,258 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:42:18,625 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:42:28,808 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:42:35,570 - Kaman -INFO - WebElement CartImage Successfully identified
+2020-04-03 09:42:43,196 - Kaman -INFO - WebElement ViewFullCart Successfully identified
+2020-04-03 09:42:52,297 - Kaman -INFO - WebElement CheckoutButton Successfully identified
+2020-04-03 09:43:00,021 - Kaman -INFO - WebElement GuestCheckoutCheckoutPage Successfully identified
+2020-04-03 09:43:00,086 - Kaman -INFO - TEXT : Create a Shipping AddressWhich you are looking for Webelement ShippingHeader has been found successfully...
+2020-04-03 09:43:10,276 - Kaman -INFO - WebElement ShiptothisAddressButton Successfully identified
+2020-04-03 09:43:10,383 - Kaman -INFO - Execution Ended for testcase number : TC19_Verify_ShippingMethod at time : 2020-04-03 09:41
+2020-04-03 09:43:10,404 - Kaman -INFO - Execution Started for Testcase number : TC02_Login_RegisteredUser at time : 2020-04-03 09:43
+2020-04-03 09:43:12,064 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:43:17,231 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:43:24,148 - Kaman -INFO - WebElement LoginURL Successfully identified
+2020-04-03 09:43:24,346 - Kaman -INFO - Successfully Entered text into Element objectName : archanamithoor@gmail.com
+2020-04-03 09:43:24,489 - Kaman -INFO - Successfully Entered text into Element objectName : kaman123
+2020-04-03 09:43:41,537 - Kaman -INFO - WebElement LoginButton Successfully identified
+2020-04-03 09:43:51,813 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:44:00,677 - Kaman -INFO - WebElement Logout Successfully identified
+2020-04-03 09:44:00,677 - Kaman -INFO - Execution Ended for testcase number : TC02_Login_RegisteredUser at time : 2020-04-03 09:43
+2020-04-03 09:44:00,712 - Kaman -INFO - Execution Started for Testcase number : TC02_Verify_MYACC_RegisteredUser at time : 2020-04-03 09:44
+2020-04-03 09:44:02,461 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:44:07,683 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:44:07,840 - Kaman -INFO - Successfully Entered text into Element objectName : archanamithoor@gmail.com
+2020-04-03 09:44:07,955 - Kaman -INFO - Successfully Entered text into Element objectName : kaman123
+2020-04-03 09:44:22,720 - Kaman -INFO - WebElement LoginButton1 Successfully identified
+2020-04-03 09:44:33,007 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:44:33,067 - Kaman -INFO - TEXT : ProfileWhich you are looking for Webelement ProfileSection has been found successfully...
+2020-04-03 09:44:33,138 - Kaman -INFO - TEXT : Payment InfoWhich you are looking for Webelement PaymentInfo has been found successfully...
+2020-04-03 09:44:33,211 - Kaman -INFO - TEXT : Address BookWhich you are looking for Webelement AddressBook has been found successfully...
+2020-04-03 09:44:33,273 - Kaman -INFO - TEXT : OrdersWhich you are looking for Webelement Orders has been found successfully...
+2020-04-03 09:44:33,356 - Kaman -INFO - TEXT : InvoicesWhich you are looking for Webelement Invoices has been found successfully...
+2020-04-03 09:44:33,415 - Kaman -INFO - TEXT : QuotesWhich you are looking for Webelement Quotes has been found successfully...
+2020-04-03 09:44:33,415 - Kaman -ERROR - TEXT : Purchasing historyWhich you are looking for WebelementPurchasing historyNOT found...!!!!
+2020-04-03 09:44:33,415 - Kaman -ERROR - TEXT : Quick orderWhich you are looking for WebelementQuick orderNOT found...!!!!
+2020-04-03 09:44:33,415 - Kaman -ERROR - TEXT : StorerooomsWhich you are looking for WebelementStorerooomsNOT found...!!!!
+2020-04-03 09:44:33,493 - Kaman -INFO - TEXT : AccountsWhich you are looking for Webelement Accounts has been found successfully...
+2020-04-03 09:44:33,549 - Kaman -INFO - TEXT : Log outWhich you are looking for Webelement Logout has been found successfully...
+2020-04-03 09:44:41,113 - Kaman -INFO - WebElement Logout Successfully identified
+2020-04-03 09:44:41,113 - Kaman -INFO - Execution Ended for testcase number : TC02_Verify_MYACC_RegisteredUser at time : 2020-04-03 09:44
+2020-04-03 09:44:41,144 - Kaman -INFO - Execution Started for Testcase number : TC23_Verify_UserRegistration at time : 2020-04-03 09:44
+2020-04-03 09:44:43,105 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:44:48,359 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:45:07,660 - Kaman -INFO - WebElement RegisterButton Successfully identified
+2020-04-03 09:45:13,758 - Kaman -INFO - WebElement ExistingaccNObutton Successfully identified
+2020-04-03 09:45:23,897 - Kaman -INFO - WebElement Acctype Successfully identified
+2020-04-03 09:45:34,041 - Kaman -INFO - WebElement T&CCHeckbox Successfully identified
+2020-04-03 09:45:46,865 - Kaman -INFO - WebElement RegistrationSubmit Successfully identified
+2020-04-03 09:46:06,865 - Kaman -ERROR - TEXT : autoWhich you are looking for WebelementRegistrationSuccessMSGNOT found...!!!!
+2020-04-03 09:46:12,021 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:46:25,578 - Kaman -INFO - WebElement Logout Successfully identified
+2020-04-03 09:46:25,578 - Kaman -INFO - Execution Ended for testcase number : TC23_Verify_UserRegistration at time : 2020-04-03 09:44
+2020-04-03 09:46:25,612 - Kaman -INFO - Execution Started for Testcase number : TC27_Verify_Store_room at time : 2020-04-03 09:46
+2020-04-03 09:46:27,346 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:46:32,628 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:46:32,806 - Kaman -INFO - Successfully Entered text into Element objectName : archanamithoor@gmail.com
+2020-04-03 09:46:32,935 - Kaman -INFO - Successfully Entered text into Element objectName : kaman123
+2020-04-03 09:47:05,623 - Kaman -INFO - WebElement LoginButton1 Successfully identified
+2020-04-03 09:47:15,903 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:47:15,967 - Kaman -INFO - TEXT : StoreroomsWhich you are looking for Webelement Storerooms has been found successfully...
+2020-04-03 09:47:23,876 - Kaman -INFO - WebElement Storerooms Successfully identified
+2020-04-03 09:47:32,254 - Kaman -INFO - WebElement SaveStorerooms Successfully identified
+2020-04-03 09:47:32,464 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:47:54,269 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:48:10,965 - Kaman -INFO - WebElement ProductList Successfully identified
+2020-04-03 09:48:28,856 - Kaman -INFO - WebElement Productsublist Successfully identified
+2020-04-03 09:48:37,330 - Kaman -INFO - WebElement ProductPLP Successfully identified
+2020-04-03 09:48:42,624 - Kaman -INFO - WebElement PDPStoreroom Successfully identified
+2020-04-03 09:48:50,923 - Kaman -INFO - WebElement PDPStoreroomOPT Successfully identified
+2020-04-03 09:48:58,494 - Kaman -INFO - WebElement SaveStoreroomchangesbutton Successfully identified
+2020-04-03 09:49:03,687 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:49:11,229 - Kaman -INFO - WebElement Logout Successfully identified
+2020-04-03 09:49:11,229 - Kaman -INFO - Execution Ended for testcase number : TC27_Verify_Store_room at time : 2020-04-03 09:46
+2020-04-03 09:49:11,283 - Kaman -INFO - Execution Started for Testcase number : TC29_VerifyALL_Links_Myaccount at time : 2020-04-03 09:49
+2020-04-03 09:49:13,031 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:49:18,282 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:49:18,462 - Kaman -INFO - Successfully Entered text into Element objectName : archanamithoor@gmail.com
+2020-04-03 09:49:18,585 - Kaman -INFO - Successfully Entered text into Element objectName : kaman123
+2020-04-03 09:49:35,430 - Kaman -INFO - WebElement LoginButton1 Successfully identified
+2020-04-03 09:49:45,757 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:49:45,827 - Kaman -INFO - TEXT : ProfileWhich you are looking for Webelement ProfileSection has been found successfully...
+2020-04-03 09:49:53,292 - Kaman -INFO - WebElement ProfileSection Successfully identified
+2020-04-03 09:49:58,646 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:49:58,705 - Kaman -INFO - TEXT : Payment InfoWhich you are looking for Webelement PaymentInfo has been found successfully...
+2020-04-03 09:50:11,515 - Kaman -INFO - WebElement PaymentInfo Successfully identified
+2020-04-03 09:50:16,782 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:50:16,838 - Kaman -INFO - TEXT : Address BookWhich you are looking for Webelement AddressBook has been found successfully...
+2020-04-03 09:50:24,075 - Kaman -INFO - WebElement AddressBook Successfully identified
+2020-04-03 09:50:29,353 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:50:29,407 - Kaman -INFO - TEXT : OrdersWhich you are looking for Webelement Orders has been found successfully...
+2020-04-03 09:50:36,531 - Kaman -INFO - WebElement Orders Successfully identified
+2020-04-03 09:50:41,770 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:50:41,830 - Kaman -INFO - TEXT : InvoicesWhich you are looking for Webelement Invoices has been found successfully...
+2020-04-03 09:50:48,971 - Kaman -INFO - WebElement Invoices Successfully identified
+2020-04-03 09:50:54,273 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:50:54,337 - Kaman -INFO - TEXT : QuotesWhich you are looking for Webelement Quotes has been found successfully...
+2020-04-03 09:51:01,480 - Kaman -INFO - WebElement Quotes Successfully identified
+2020-04-03 09:51:06,843 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:51:06,900 - Kaman -INFO - TEXT : Purchasing historyWhich you are looking for Webelement PurchasingHistory has been found successfully...
+2020-04-03 09:51:14,050 - Kaman -INFO - WebElement PurchasingHistory Successfully identified
+2020-04-03 09:51:19,368 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:51:19,430 - Kaman -INFO - TEXT : Quick orderWhich you are looking for Webelement Quickorder has been found successfully...
+2020-04-03 09:51:26,890 - Kaman -INFO - WebElement Quickorder Successfully identified
+2020-04-03 09:51:32,122 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:51:32,181 - Kaman -INFO - TEXT : StoreroomsWhich you are looking for Webelement Storerooms has been found successfully...
+2020-04-03 09:51:39,695 - Kaman -INFO - WebElement Storerooms Successfully identified
+2020-04-03 09:51:45,084 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:51:45,151 - Kaman -INFO - TEXT : AccountsWhich you are looking for Webelement Accounts has been found successfully...
+2020-04-03 09:51:52,295 - Kaman -INFO - WebElement Accounts Successfully identified
+2020-04-03 09:52:02,511 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:52:02,571 - Kaman -INFO - TEXT : Log outWhich you are looking for Webelement Logout has been found successfully...
+2020-04-03 09:52:09,984 - Kaman -INFO - WebElement Logout Successfully identified
+2020-04-03 09:52:10,025 - Kaman -INFO - Execution Ended for testcase number : TC29_VerifyALL_Links_Myaccount at time : 2020-04-03 09:49
+2020-04-03 09:52:10,060 - Kaman -INFO - Execution Started for Testcase number : TC30_Search_Typeahead at time : 2020-04-03 09:52
+2020-04-03 09:52:11,756 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:52:13,593 - Kaman -INFO - Execution Ended for testcase number : TC30_Search_Typeahead at time : 2020-04-03 09:52
+2020-04-03 09:52:13,611 - Kaman -INFO - Execution Started for Testcase number : TC31_Verify_login at time : 2020-04-03 09:52
+2020-04-03 09:52:15,907 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:52:21,137 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:52:21,319 - Kaman -INFO - Successfully Entered text into Element objectName : archanamithoor@gmail.com
+2020-04-03 09:52:21,492 - Kaman -INFO - Successfully Entered text into Element objectName : kaman123
+2020-04-03 09:52:39,198 - Kaman -INFO - WebElement LoginButton1 Successfully identified
+2020-04-03 09:52:49,555 - Kaman -INFO - WebElement MyaccountSection Successfully identified
+2020-04-03 09:52:56,989 - Kaman -INFO - WebElement Logout Successfully identified
+2020-04-03 09:52:56,989 - Kaman -INFO - Execution Ended for testcase number : TC31_Verify_login at time : 2020-04-03 09:52
+2020-04-03 09:52:57,017 - Kaman -INFO - Execution Started for Testcase number : TC32_Verify_store_location at time : 2020-04-03 09:52
+2020-04-03 09:52:58,742 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 09:53:03,978 - Kaman -INFO - WebElement LoginOption Successfully identified
+2020-04-03 09:53:04,160 - Kaman -INFO - Successfully Entered text into Element objectName : archanamithoor@gmail.com
+2020-04-03 09:53:04,292 - Kaman -INFO - Successfully Entered text into Element objectName : kaman123
+2020-04-03 09:53:20,106 - Kaman -INFO - WebElement LoginButton1 Successfully identified
+2020-04-03 09:53:33,180 - Kaman -INFO - WebElement ContactMenu Successfully identified
+2020-04-03 09:53:41,402 - Kaman -INFO - WebElement StorelocatorSearchButton Successfully identified
+2020-04-03 09:54:01,712 - Kaman -ERROR - TEXT : 1. LONG ISLANDWhich you are looking for WebelementStoreHeaderNOT found...!!!!
+2020-04-03 09:54:01,712 - Kaman -INFO - Execution Ended for testcase number : TC32_Verify_store_location at time : 2020-04-03 09:52
+2020-04-03 09:54:01,742 - Kaman -INFO - Execution Started for Testcase number : TC41_Add_MultipleItems_to_cart_Prod at time : 2020-04-03 09:54
+2020-04-03 09:54:06,935 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/
+2020-04-03 09:54:07,131 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:54:08,408 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:54:17,300 - Kaman -INFO - WebElement ShaftMount Successfully identified
+2020-04-03 09:54:32,884 - Kaman -INFO - WebElement itemp1 Successfully identified
+2020-04-03 09:54:43,094 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:54:54,420 - Kaman -INFO - WebElement itemp2 Successfully identified
+2020-04-03 09:55:04,702 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:55:16,322 - Kaman -INFO - WebElement itemp3 Successfully identified
+2020-04-03 09:55:26,551 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:55:31,770 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:55:33,038 - Kaman -INFO - WebElement Gearing Successfully identified
+2020-04-03 09:55:41,254 - Kaman -INFO - WebElement Category1 Successfully identified
+2020-04-03 09:55:55,524 - Kaman -INFO - WebElement itemp4 Successfully identified
+2020-04-03 09:56:05,735 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:56:16,957 - Kaman -INFO - WebElement itemp5 Successfully identified
+2020-04-03 09:56:27,210 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:56:40,765 - Kaman -INFO - WebElement itemp6 Successfully identified
+2020-04-03 09:56:50,965 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:56:58,015 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:57:00,215 - Kaman -INFO - WebElement Electrical Successfully identified
+2020-04-03 09:57:07,433 - Kaman -INFO - WebElement Category2 Successfully identified
+2020-04-03 09:57:25,931 - Kaman -INFO - WebElement Category21 Successfully identified
+2020-04-03 09:57:40,403 - Kaman -INFO - WebElement itemp7 Successfully identified
+2020-04-03 09:57:50,614 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:58:02,599 - Kaman -INFO - WebElement itemp8 Successfully identified
+2020-04-03 09:58:12,810 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:58:23,594 - Kaman -INFO - WebElement itemp9 Successfully identified
+2020-04-03 09:58:33,817 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:58:44,949 - Kaman -INFO - WebElement itemp10 Successfully identified
+2020-04-03 09:58:55,233 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:59:02,329 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 09:59:03,698 - Kaman -INFO - WebElement Linear Successfully identified
+2020-04-03 09:59:10,726 - Kaman -INFO - WebElement Category3 Successfully identified
+2020-04-03 09:59:25,906 - Kaman -INFO - WebElement itemp11 Successfully identified
+2020-04-03 09:59:36,125 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 09:59:52,911 - Kaman -INFO - WebElement itemp12 Successfully identified
+2020-04-03 10:00:03,125 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:00:19,735 - Kaman -INFO - WebElement itemp13 Successfully identified
+2020-04-03 10:00:29,926 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:00:36,287 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 10:00:37,329 - Kaman -INFO - WebElement Linear Successfully identified
+2020-04-03 10:00:48,940 - Kaman -INFO - WebElement Category31 Successfully identified
+2020-04-03 10:01:03,339 - Kaman -INFO - WebElement itemp14 Successfully identified
+2020-04-03 10:01:13,595 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:01:39,587 - Kaman -INFO - WebElement itemp15 Successfully identified
+2020-04-03 10:01:49,780 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:02:15,822 - Kaman -INFO - WebElement itemp16 Successfully identified
+2020-04-03 10:02:26,052 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:02:49,235 - Kaman -INFO - WebElement itemp17 Successfully identified
+2020-04-03 10:02:59,472 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:03:05,936 - Kaman -INFO - WebElement ProductMegamenu Successfully identified
+2020-04-03 10:03:06,847 - Kaman -INFO - WebElement Linear Successfully identified
+2020-04-03 10:03:57,322 - Kaman -INFO - WebElement Category32 Successfully identified
+2020-04-03 10:04:28,978 - Kaman -INFO - WebElement itemp18 Successfully identified
+2020-04-03 10:04:39,242 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:05:03,700 - Kaman -INFO - WebElement itemp19 Successfully identified
+2020-04-03 10:05:13,927 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:05:39,361 - Kaman -INFO - WebElement itemp20 Successfully identified
+2020-04-03 10:05:49,594 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:06:11,014 - Kaman -INFO - WebElement itemp21 Successfully identified
+2020-04-03 10:06:21,258 - Kaman -INFO - WebElement AddToCartPDP Successfully identified
+2020-04-03 10:06:21,259 - Kaman -INFO - Execution Ended for testcase number : TC41_Add_MultipleItems_to_cart_Prod at time : 2020-04-03 09:54
+2020-04-03 10:06:21,472 - Kaman -INFO - Execution ended on : 2020-04-03_10-06-21
+2020-04-03 10:24:18,457 - Kaman -INFO - Execution started on 2020-04-03_10-24-18
+2020-04-03 10:24:28,744 - Kaman -INFO - Execution Started for Testcase number : TC01_Verify_HomePage at time : 2020-04-03 10:24
+2020-04-03 10:24:34,089 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 10:24:34,317 - Kaman -INFO - Execution Ended for testcase number : TC01_Verify_HomePage at time : 2020-04-03 10:24
+2020-04-03 10:24:34,327 - Kaman -INFO - TC02_Verify_HOME_PDP_PLP_CATEGORY has been skipped for this execution...
+2020-04-03 10:24:34,329 - Kaman -INFO - TC03_Verify_BLP_Solutions_ContactUS has been skipped for this execution...
+2020-04-03 10:24:34,330 - Kaman -INFO - TC04_Search_product_not_in_Catalog has been skipped for this execution...
+2020-04-03 10:24:34,333 - Kaman -INFO - TC05_Search_product_in_Catalog has been skipped for this execution...
+2020-04-03 10:24:34,336 - Kaman -INFO - TC6_SearchResults_Typeahead has been skipped for this execution...
+2020-04-03 10:24:34,339 - Kaman -INFO - TC07_SearchCategory has been skipped for this execution...
+2020-04-03 10:24:34,342 - Kaman -INFO - TC08_VerifyProductListPLP has been skipped for this execution...
+2020-04-03 10:24:34,344 - Kaman -INFO - TC09_Verify_Documented_Savings has been skipped for this execution...
+2020-04-03 10:24:34,347 - Kaman -INFO - TC10_Verify_Search_results has been skipped for this execution...
+2020-04-03 10:24:34,350 - Kaman -INFO - TC11_Verify_PDP_From_Search_results has been skipped for this execution...
+2020-04-03 10:24:34,352 - Kaman -INFO - TC12_Verify_AddToCart_from_PDP has been skipped for this execution...
+2020-04-03 10:24:34,354 - Kaman -INFO - TC26_Verify_Clear_Cart has been skipped for this execution...
+2020-04-03 10:24:34,357 - Kaman -INFO - TC13_Verify_Search_Dimensions has been skipped for this execution...
+2020-04-03 10:24:34,360 - Kaman -INFO - TC14_Verify_AddToCart_from_Search has been skipped for this execution...
+2020-04-03 10:24:34,362 - Kaman -INFO - TC15_Verify_ViewFullCart has been skipped for this execution...
+2020-04-03 10:24:34,364 - Kaman -INFO - TC16_Update_Quantity_CartPage has been skipped for this execution...
+2020-04-03 10:24:34,366 - Kaman -INFO - TC17_Verify_CheckoutButton has been skipped for this execution...
+2020-04-03 10:24:34,368 - Kaman -INFO - TC18_Verify_ShippingPage has been skipped for this execution...
+2020-04-03 10:24:34,371 - Kaman -INFO - TC19_Verify_ShippingMethod has been skipped for this execution...
+2020-04-03 10:24:34,372 - Kaman -INFO - TC02_Login_RegisteredUser has been skipped for this execution...
+2020-04-03 10:24:34,375 - Kaman -INFO - TC02_Verify_MYACC_RegisteredUser has been skipped for this execution...
+2020-04-03 10:24:34,377 - Kaman -INFO - TC23_Verify_UserRegistration has been skipped for this execution...
+2020-04-03 10:24:34,379 - Kaman -INFO - TC27_Verify_Store_room has been skipped for this execution...
+2020-04-03 10:24:34,382 - Kaman -INFO - TC29_VerifyALL_Links_Myaccount has been skipped for this execution...
+2020-04-03 10:24:34,385 - Kaman -INFO - TC30_Search_Typeahead has been skipped for this execution...
+2020-04-03 10:24:34,387 - Kaman -INFO - TC31_Verify_login has been skipped for this execution...
+2020-04-03 10:24:34,390 - Kaman -INFO - TC32_Verify_store_location has been skipped for this execution...
+2020-04-03 10:24:34,392 - Kaman -INFO - TC41_Add_MultipleItems_to_cart_Prod has been skipped for this execution...
+2020-04-03 10:24:34,686 - Kaman -INFO - Execution ended on : 2020-04-03_10-24-34
+2020-04-03 10:28:14,701 - Kaman -INFO - Execution started on 2020-04-03_10-28-14
+2020-04-03 10:28:24,875 - Kaman -INFO - Execution Started for Testcase number : TC01_Verify_HomePage at time : 2020-04-03 10:28
+2020-04-03 10:28:28,771 - Kaman -INFO - Successfully navigated to URL : https://ec.kamandirect.com/storeus/
+2020-04-03 10:28:29,031 - Kaman -INFO - Execution Ended for testcase number : TC01_Verify_HomePage at time : 2020-04-03 10:28
+2020-04-03 10:28:29,040 - Kaman -INFO - TC02_Verify_HOME_PDP_PLP_CATEGORY has been skipped for this execution...
+2020-04-03 10:28:29,042 - Kaman -INFO - TC03_Verify_BLP_Solutions_ContactUS has been skipped for this execution...
+2020-04-03 10:28:29,044 - Kaman -INFO - TC04_Search_product_not_in_Catalog has been skipped for this execution...
+2020-04-03 10:28:29,046 - Kaman -INFO - TC05_Search_product_in_Catalog has been skipped for this execution...
+2020-04-03 10:28:29,048 - Kaman -INFO - TC6_SearchResults_Typeahead has been skipped for this execution...
+2020-04-03 10:28:29,050 - Kaman -INFO - TC07_SearchCategory has been skipped for this execution...
+2020-04-03 10:28:29,053 - Kaman -INFO - TC08_VerifyProductListPLP has been skipped for this execution...
+2020-04-03 10:28:29,055 - Kaman -INFO - TC09_Verify_Documented_Savings has been skipped for this execution...
+2020-04-03 10:28:29,057 - Kaman -INFO - TC10_Verify_Search_results has been skipped for this execution...
+2020-04-03 10:28:29,059 - Kaman -INFO - TC11_Verify_PDP_From_Search_results has been skipped for this execution...
+2020-04-03 10:28:29,061 - Kaman -INFO - TC12_Verify_AddToCart_from_PDP has been skipped for this execution...
+2020-04-03 10:28:29,063 - Kaman -INFO - TC26_Verify_Clear_Cart has been skipped for this execution...
+2020-04-03 10:28:29,065 - Kaman -INFO - TC13_Verify_Search_Dimensions has been skipped for this execution...
+2020-04-03 10:28:29,067 - Kaman -INFO - TC14_Verify_AddToCart_from_Search has been skipped for this execution...
+2020-04-03 10:28:29,071 - Kaman -INFO - TC15_Verify_ViewFullCart has been skipped for this execution...
+2020-04-03 10:28:29,073 - Kaman -INFO - TC16_Update_Quantity_CartPage has been skipped for this execution...
+2020-04-03 10:28:29,076 - Kaman -INFO - TC17_Verify_CheckoutButton has been skipped for this execution...
+2020-04-03 10:28:29,078 - Kaman -INFO - TC18_Verify_ShippingPage has been skipped for this execution...
+2020-04-03 10:28:29,081 - Kaman -INFO - TC19_Verify_ShippingMethod has been skipped for this execution...
+2020-04-03 10:28:29,083 - Kaman -INFO - TC02_Login_RegisteredUser has been skipped for this execution...
+2020-04-03 10:28:29,086 - Kaman -INFO - TC02_Verify_MYACC_RegisteredUser has been skipped for this execution...
+2020-04-03 10:28:29,087 - Kaman -INFO - TC23_Verify_UserRegistration has been skipped for this execution...
+2020-04-03 10:28:29,089 - Kaman -INFO - TC27_Verify_Store_room has been skipped for this execution...
+2020-04-03 10:28:29,091 - Kaman -INFO - TC29_VerifyALL_Links_Myaccount has been skipped for this execution...
+2020-04-03 10:28:29,092 - Kaman -INFO - TC30_Search_Typeahead has been skipped for this execution...
+2020-04-03 10:28:29,094 - Kaman -INFO - TC31_Verify_login has been skipped for this execution...
+2020-04-03 10:28:29,096 - Kaman -INFO - TC32_Verify_store_location has been skipped for this execution...
+2020-04-03 10:28:29,099 - Kaman -INFO - TC41_Add_MultipleItems_to_cart_Prod has been skipped for this execution...
+2020-04-03 10:28:29,377 - Kaman -INFO - Execution ended on : 2020-04-03_10-28-29

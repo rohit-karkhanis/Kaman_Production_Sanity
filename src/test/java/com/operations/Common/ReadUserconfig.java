@@ -17,6 +17,12 @@ public class ReadUserconfig {
 	public String HistoricalReports;
 	public String OS;
 	public String Username;
+	public String SMTPHost;
+	public String SMTPUser;
+	public String SMTPPassword;
+	public String emailFrom;
+	public String emailTo;
+	
 	//Properties c = new Properties();
  
 @Test
@@ -35,6 +41,12 @@ public class ReadUserconfig {
 		HistoricalReports = prop1.getProperty("Historical_Reports");
 		OS = prop1.getProperty("OS");
 		Username=prop1.getProperty("Username");
+		SMTPHost=prop1.getProperty("SMTPHost");
+		SMTPPassword=prop1.getProperty("SMTPPassword");
+		SMTPUser=prop1.getProperty("SMTPUser");
+		emailFrom=prop1.getProperty("emailFrom");
+		emailTo=prop1.getProperty("emailTo");
+		
 		}
 
 	

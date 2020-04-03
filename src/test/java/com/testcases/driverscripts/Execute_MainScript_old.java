@@ -9,14 +9,13 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedHashMap;
-import java.util.Locale;
 import java.util.Map;
-import java.util.TimeZone;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TimeoutException;
@@ -54,14 +53,14 @@ import com.operations.Master_data;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 //import com.Utilities.SendEmail;
-import com.Utilities.SendStatusReport;
+import com.Utilities.SendStatusReport1;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-public class Execute_MainScript {
+public class Execute_MainScript_old {
 
 	Platform macOS;
 
@@ -88,34 +87,24 @@ public class Execute_MainScript {
 	String Device;
 	int DeviceScrHeight;
 	int DeviceScrWidth;
-	public static Date Startdate;
-	public static Date Enddate;
-	public static Date Startdate_Email;
-	public static Date Enddate_Email;
-
+	static Date Startdate;
+	static Date Enddate;
 	long startTime ;
 	String Object;
 	File Reportdir;
 	File TempReportdir;
-	public static int Passcounter;	
-	public static int skipcounter;
-	public static int TotalTCcounter;
-	public static String ExecutionStart;
 
 	Xls_writer xls_writer=new Xls_writer();
 
 	Readconfig rc =new Readconfig();
 	ReadUserconfig uc =new ReadUserconfig();
-	SendStatusReport email =new SendStatusReport();
+	SendStatusReport1 email =new SendStatusReport1();
 	StringWriter stack = new StringWriter();
 	Script_executor screxe = new Script_executor();
 	FireClass FC = new FireClass();
 
 	public static SimpleDateFormat StartTime;
 	public static SimpleDateFormat EndTime;
-	public static SimpleDateFormat StartTime_Email;
-	public static SimpleDateFormat EndTime_Email;
-	TimeZone timeZone = TimeZone.getTimeZone("IST");
 
 	Map<Integer, Object[]> Testcase_skipresults = new LinkedHashMap<Integer, Object[]>();
 
@@ -136,11 +125,6 @@ public class Execute_MainScript {
 		PropertyConfigurator.configure(System.getProperty("user.dir")+"/Resources/log4j.properties");
 		Startdate = new Date() ;
 		StartTime = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss") ;
-		Startdate_Email = new Date() ;
-		StartTime_Email = new SimpleDateFormat("MM-dd-yyyy hh:mm") ;
-
-
-		//System.out.println(Startdate_Email);
 
 		String TempRep_file=System.getProperty("user.dir") +"/test-output/TestSummary_Report.html";
 		TempReportdir= new File(TempRep_file);
@@ -166,7 +150,6 @@ public class Execute_MainScript {
 		//startTime = System.
 		Applog.info("Execution started on " + StartTime.format(Startdate));
 		System.out.println("Execution started on : " + StartTime.format(Startdate));
-		StartTime_Email.setTimeZone(timeZone);
 		//dateFormat = new SimpleDateFormat("yyyy-MM-dd_HH-mm") ;
 		//Applog.info("Execution started on Firefox" + dateFormat.format(date));
 	}
@@ -285,7 +268,6 @@ public class Execute_MainScript {
 
 		this.Testcasenumber=Testcasenumber;
 		this.Sitename=uc.SiteName;
-		TotalTCcounter = TotalTCcounter +1;
 
 
 		if(Executionmode.equalsIgnoreCase("Yes")){
@@ -318,10 +300,10 @@ public class Execute_MainScript {
 
 			} catch (TimeoutException Te) {
 
-
+				
 				Te.printStackTrace(new PrintWriter(stack));
 				Applog.error(stack.toString());
-				FC.FailedTCOperation(Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
+				//FC.FailedTCOperation(webdriver,Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
 
 			}
 
@@ -329,14 +311,21 @@ public class Execute_MainScript {
 
 				Nse.printStackTrace(new PrintWriter(stack));
 				Applog.error(stack.toString());
-				FC.FailedTCOperation(Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
+				//FC.FailedTCOperation(webdriver,Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
+
+			}
+			catch(ElementClickInterceptedException  Ce) {
+
+				Ce.printStackTrace(new PrintWriter(stack));
+				Applog.error(stack.toString());
+			//	FC.FailedTCOperation(webdriver,Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
 
 			}
 			catch(Exception e) {
 
 				e.printStackTrace(new PrintWriter(stack));
 				Applog.error(stack.toString());
-				FC.FailedTCOperation(Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
+				//FC.FailedTCOperation(Testcase_description, screxe, webdriver, xls_writer, Testscase_failresults, browser_name, Functionality, Testcasenumber, Severity, StartTime, Startdate, softAssert, test, extent);
 				Assert.fail(stack.toString());
 
 				//	}
@@ -388,7 +377,6 @@ public class Execute_MainScript {
 				test = extent.createTest(browser_name+"_"+Testcasenumber);
 				test.skip(MarkupHelper.createLabel(Testcasenumber+" has been skipped for this execution...", ExtentColor.AMBER));
 				//System.out.println("Test execution status : SKIPPED.....");
-				skipcounter = skipcounter +1;
 			}
 
 		}
@@ -403,7 +391,6 @@ public class Execute_MainScript {
 				test = extent.createTest(browser_name+"_"+Testcasenumber);
 				test.pass(MarkupHelper.createLabel(Testcasenumber + " has been passed", ExtentColor.GREEN));
 				System.out.println("Test execution status : PASSED...$$$$");
-				Passcounter = Passcounter +1;
 
 			}
 
@@ -417,11 +404,6 @@ public class Execute_MainScript {
 		extent.flush();
 		Enddate = new Date() ;
 		EndTime = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss") ;
-		Enddate_Email = new Date() ;
-		EndTime_Email = new SimpleDateFormat("MM-dd-yyyy hh:mm") ;
-		EndTime_Email.setTimeZone(timeZone);
-		//System.out.println(Enddate_Email);
-		EndTime_Email = new SimpleDateFormat("mm/dd/yyyy hh:mm",Locale.getDefault()) ;
 		Applog.info("Execution ended on : " + EndTime.format(Enddate));
 		System.out.println("Execution ended on : " + EndTime.format(Enddate));
 		long diff = Enddate.getTime() - Startdate.getTime();
@@ -450,9 +432,8 @@ public class Execute_MainScript {
 			if(uc.OS.equalsIgnoreCase("Windows")) {
 				Runtime rt = Runtime.getRuntime();
 				rt.exec("taskkill /F /IM chromedriver.exe");
-				email.performTask();
 			}
-
+			
 
 		}
 		else if(browser.equalsIgnoreCase("ie")){
@@ -462,7 +443,6 @@ public class Execute_MainScript {
 		}
 		else if(browser.equalsIgnoreCase("safari")){
 			webdriver.close();
-
 		}
 
 	}

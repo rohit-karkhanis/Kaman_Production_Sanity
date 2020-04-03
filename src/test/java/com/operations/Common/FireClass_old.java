@@ -3,15 +3,14 @@ package com.operations.Common;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
@@ -21,12 +20,10 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
-public class FireClass {
+public class FireClass_old {
 
 	ReadUserconfig uc =new ReadUserconfig();
 	String failmsg;
-	public static int failcounter;
-	
 	
 		
 	public void VerifyUserLoginforLogout(WebDriver webdriver) throws InterruptedException {
@@ -50,9 +47,10 @@ public class FireClass {
 
 	}
 
-	public void FailedTCOperation(String Object,Script_executor screxe,WebDriver webdriver,Xls_writer xls_writer,Map<Integer, Object[]> Testscase_failresults ,String browser_name,String Functionality,String Testcasenumber, 
+	public void FailedTCOperation(WebDriver driver,String Object,Script_executor screxe,WebDriver webdriver,Xls_writer xls_writer,Map<Integer, Object[]> Testscase_failresults ,String browser_name,String Functionality,String Testcasenumber, 
 			String Severity,SimpleDateFormat StartTime,Date Startdate,SoftAssert softAssert,ExtentTest test,ExtentReports extent) throws Exception {
 
+		driver.close();
 		uc.getUserConfig();
 
 		Object=screxe.Object;
@@ -74,7 +72,6 @@ public class FireClass {
 		failmsg="NOT able to find element within given time frame...!!! Element name: " +"'" + Object + "." ;
 		test = extent.createTest(browser_name+"_"+Testcasenumber);	
 		test.fail(MarkupHelper.createLabel(failmsg,ExtentColor.RED));
-		failcounter=failcounter+1;
 		
 		/*Actions Mouseaction = new Actions(webdriver);
 		WebElement ele = webdriver.findElement(By.xpath("//div[text()='My Account']"));
@@ -82,7 +79,12 @@ public class FireClass {
 		webdriver.findElement(By.xpath("//*[@id='logout-button']")).click();
 		//test.fail(MarkupHelper.createLabel(Testcasenumber+" has been failed....", ExtentColor.RED));
 		*/Assert.fail(failmsg);
-		
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/Browser_files/chromedriver_win32/chromedriver.exe");
+		//WebDriverManager.chromedriver().setup();
+		webdriver = new ChromeDriver();
+		//Dimension d = new Dimension(DeviceScrWidth, DeviceScrHeight);
+		//webdriver.manage().window().setSize(d);
+		webdriver.manage().window().maximize();
 	}
 
 
