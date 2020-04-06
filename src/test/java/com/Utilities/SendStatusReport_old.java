@@ -84,8 +84,8 @@ public class SendStatusReport_old {
 
 	public static void main(String[] args) {
 
-		final String username = "jenkins@logixal.com";
-		final String password = "Qwert@123";
+		final String username = "jenkinslogixal@gmail.com";
+		final String password = "L0gix@l0044";
 		//String to ="rohit.karkhanis@logixal.com,rohit.karkhanis1989@gmail.com,rskarkhaniss@gmail.com";
 		String to ="Carlos.Camacho@kaman.com,darwin.pierre-louis@kaman.com,Howard.Blumenthal@kaman.com,kaman.golive@logixal.com,rohit.karkhanis@logixal.com,ameya.sawalkar@logixal.com";
 		// BodyPart messageBodyPart;
@@ -93,7 +93,7 @@ public class SendStatusReport_old {
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", true);
 		props.put("mail.smtp.starttls.enable", true);
-		props.put("mail.smtp.host", "smtp.office365.com");
+		props.put("mail.smtp.host", "smtp.gmail.com");
 		props.put("mail.smtp.port", "587");
 
 		Session session = Session.getInstance(props,
@@ -112,7 +112,7 @@ public class SendStatusReport_old {
 			InternetAddress[] parse = InternetAddress.parse(to , true);
 			message.setRecipients(javax.mail.Message.RecipientType.TO,  parse);
 			//message.setSubject("Prod Sanity Build # 8 : Sanity Automation Test Status on Production - Successful!");
-			  message.setSubject("Build # 25 : Sanity Automation Test Status on ECTEST - Successful!");
+			  message.setSubject("Build # 26 : Sanity Automation Test Status on ECTEST - Successful!");
 
 			message.setText("<h1> test email </h1>");
 			//message.setContent("sdfsdsdd", "text/html; charset=utf-8");
