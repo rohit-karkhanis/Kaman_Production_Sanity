@@ -53,6 +53,7 @@ import com.operations.Master_data;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import com.Utilities.CreateExecutionStatusHTMLfile;
 //import com.Utilities.SendEmail;
 import com.Utilities.SendStatusReport;
 import com.aventstack.extentreports.ExtentReports;
@@ -78,7 +79,7 @@ public class Execute_MainScript {
 
 	Script_executor scre = new Script_executor();
 
-	String browser_name;
+	public static String browser_name;
 
 	String Testcasenumber;
 
@@ -115,6 +116,8 @@ public class Execute_MainScript {
 	public static SimpleDateFormat EndTime;
 	public static SimpleDateFormat StartTime_Email;
 	public static SimpleDateFormat EndTime_Email;
+	CreateExecutionStatusHTMLfile html = new CreateExecutionStatusHTMLfile();
+	
 	TimeZone timeZone = TimeZone.getTimeZone("IST");
 
 	Map<Integer, Object[]> Testcase_skipresults = new LinkedHashMap<Integer, Object[]>();
@@ -413,7 +416,7 @@ public class Execute_MainScript {
 
 	@AfterSuite
 
-	public void close() {
+	public void close() throws IOException {
 		extent.flush();
 		Enddate = new Date() ;
 		EndTime = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss") ;
@@ -432,6 +435,7 @@ public class Execute_MainScript {
 		System.out.print(diffHours + " hours, ");
 		System.out.print(diffMinutes + " minutes, ");
 		System.out.print(diffSeconds + " seconds.");
+		html.GenerateFinalExecutionStatus();
 		//email.performTask();
 	}  
 
@@ -450,7 +454,7 @@ public class Execute_MainScript {
 			if(uc.OS.equalsIgnoreCase("Windows")) {
 				Runtime rt = Runtime.getRuntime();
 				rt.exec("taskkill /F /IM chromedriver.exe");
-				email.performTask();
+				//email.performTask();
 			}
 
 
